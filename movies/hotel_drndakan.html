@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+
+<head>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="utf-8">
+	
+	<style>
+        @font-face {
+    font-family: "Rabar_013";
+    src: url("../fonts/Rabar_013.eot"); /* IE9 Compat Modes */
+    src: url("../fonts/Rabar_013.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+        url("../fonts/Rabar_013.ttf") format("truetype"), /* Safari, Android, iOS */
+        url("../fonts/Rabar_013.woff") format("woff"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+    }
+    </style>
+
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CUbuntu:300,400,500,700" rel="stylesheet">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="../css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="../css/owl.carousel.min.css">
+	<link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+	<link rel="stylesheet" href="../css/nouislider.min.css">
+	<link rel="stylesheet" href="../css/ionicons.min.css">
+	<link rel="stylesheet" href="../css/all.css">
+	<link rel="stylesheet" href="../css/plyr.css">
+	<link rel="stylesheet" href="../css/photoswipe.css">
+	<link rel="stylesheet" href="../css/default-skin.css">
+	<link rel="stylesheet" href="../css/main.css">
+
+	<!-- Favicons -->
+	<link rel="icon" type="image/png" href="../icon/favicon-32x32.png" sizes="32x32">
+	<link rel="apple-touch-icon" href="../icon/favicon-32x32.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../icon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../icon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../icon/apple-touch-icon-144x144.png">
+
+	<meta name="description" content="">
+	<meta name="keywords" content="kurdish subtitle، هۆتێلی دڕندەکان، کارتۆن، فیلم">
+	<meta name="author" content="">
+	<title>هۆتێلی دڕندەکان</title>
+
+</head>
+<body class="body">
+	
+	<!-- header -->
+	<header class="header">
+		<div class="header__wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="header__content">
+							<!-- header logo -->
+						<a href="../index.html" class="header__logo">
+							<img src="../img/2.png" alt="" >
+						</a>
+						<!-- end header logo -->
+
+							<!-- header nav -->
+						<ul class="header__nav">
+							<!-- dropdown -->
+							<li class="header__nav-item">
+								<a href="../index.html" class="header__nav-link">سەرەتا</a>
+							</li>
+							<!-- end dropdown -->
+							
+
+							<!-- dropdown -->
+							<li class="header__nav-item">
+								<a href="../movies.html" class="header__nav-link">فیلمەکان</a>
+							</li>
+							
+							<!-- <li class="header__nav-item">
+								<a href="../series.html" class="header__nav-link">زنجیرەکان</a>
+							</li> -->
+
+							
+							<li class="header__nav-item">
+								<a href="../staff.html" class="header__nav-link">ستاف</a>
+							</li>
+							
+							<li class="header__nav-item">
+								<a href="../about.html" class="header__nav-link">سەبارەت</a>
+							</li>
+
+							<li id="mobile" class="header__nav-item">
+								<a target="_blank" href="https://www.facebook.com/Kartoni-Kurdi-105081544697058/" class="header__nav-link">فەیسبووك</a>
+							</li>
+
+							<li id="tablet" class="header__nav-item">
+								<a target="_blank" href="https://www.facebook.com/Kartoni-Kurdi-105081544697058/" class="header__nav-link">فەیسبووك</a>
+							</li>
+
+							<!-- dropdown -->
+							<div id="computer" class="dropdown_padd">
+
+								<li class="dropdown header__nav-item">
+									<a class="dropdown-toggle header__nav-link header__nav-link--more" href="#" role="button" id="dropdownMenuMore" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon ion-ios-more"></i></a>
+	
+									<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuMore">
+										<li><a target="_blank" href="https://www.facebook.com/Kartoni-Kurdi-105081544697058/">فەیسبووك</a></li>
+										
+									</ul>
+								</li>
+
+							</div>
+							<!-- end dropdown -->
+
+							
+
+							
+						</ul>
+						<!-- end header nav -->
+
+						<!-- header auth -->
+							<div class="header__auth">
+								<button class="header__search-btn" type="button" onclick="topfunction()">
+									<i class="icon ion-ios-search"></i>
+								</button>
+
+							
+						</div>
+						<!-- end header auth -->
+
+							<!-- header menu btn -->
+							<button class="header__btn" type="button">
+								<span></span>
+								<span></span>
+								<span></span>
+							</button>
+							<!-- end header menu btn -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- header search -->
+	<form action="" class="header__search">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="header__search-content">
+						
+
+						<input type="text" id="myInput" autocomplete="off" onkeyup="searchFunction()" placeholder="ناوی ئەو کارتۆنە بنووسە کە بەدوای دەگەڕێیت">
+
+						
+						<button id="click" onclick="sfunction()" type="button">گەڕان</button>
+						
+						
+					</div>
+
+					<div id="sfunction" class="searchd">
+
+						<ul class="footer__listb" id="myUL">
+							<li><img src="../img/search/barewbary_mndalakan.jpg" alt="" width="70px" height="100px"><a href="../movies/barewbary_mndalakan.html">بەڕێوبەری منداڵه‌كان</a></li>
+							<li><img src="../img/search/drndayak_le_paris.jpg" alt="" width="70px" height="100px"><a href="../movies/drndayak_le_paris.html">دڕندەیەك لە پاریس </a></li>
+							<li><img src="../img/search/hotel_drndakan.jpg" alt="" width="70px" height="100px"><a href="../movies/hotel_drndakan.html">هۆتێلی دڕندەکان </a></li>
+							<li><img src="../img/search/hotel_drndakan2.jpg" alt="" width="70px" height="100px"><a href="../movies/hotel_drndakan2.html">هۆتێلی دڕندەکان بەشی دوو </a></li>
+							<li><img src="../img/search/hotel_drndakan3.jpg" alt="" width="70px" height="100px"><a href="../movies/hotel_drndakan3.html">هۆتێلی دڕندەکان بەشی سێ </a></li>
+							<li><img src="../img/search/kobwnewey_azhalan.jpg" alt="" width="70px" height="100px"><a href="../movies/kobwnewey_azhalan.html">کۆبوونەوەی ئاژەڵان </a></li>
+							<li><img src="../img/search/kary_baxtawar.jpg" alt="" width="70px" height="100px"><a href="../movies/kary_baxtawar.html"> کەری بەختەوەر </a></li>
+							<li><img src="../img/search/komba.jpg" alt="" width="70px" height="100px"><a href="../movies/komba.html">کۆمبا </a></li>
+							<li><img src="../img/search/pashay_gwedrezh.jpg" alt="" width="70px" height="100px"><a href="../movies/pashay_gwedrezh.html">پاشای گوێدرێژ </a></li>
+							<li><img src="../img/search/palawan.jpg" alt="" width="70px" height="100px"><a href="../movies/palawan.html"> پاڵەوان </a></li>
+							<li><img src="../img/search/qazy_razil.jpg" alt="" width="70px" height="100px"><a href="../movies/qazy_razil.html">قازی ڕەزیل </a></li>
+							<li><img src="../img/search/se_smora.jpg" alt="" width="70px" height="100px"><a href="../movies/se_smora.html">سێ سمۆرەی هونەرمەند </a></li>
+							<li><img src="../img/search/se_smora2.jpg" alt="" width="70px" height="100px"><a href="../movies/se_smora2.html">سێ سمۆرەی هونەرمەند بەشی دوو </a></li>
+							<li><img src="../img/search/se_smora3.jpg" alt="" width="70px" height="100px"><a href="../movies/se_smora3.html">سێ سمۆرەی هونەرمەند بەشی سێ </a></li>
+							<li><img src="../img/search/tarazan.jpg" alt="" width="70px" height="100px"><a href="../movies/tarazan.html">تەڕەزان </a></li>
+							<li><img src="../img/search/tarazan2.jpg" alt="" width="70px" height="100px"><a href="../movies/tarazan2.html">تەڕەزان بەشی دوو </a></li>
+							
+							<br>
+						</ul>
+
+					</div>
+
+				</div>
+
+				
+			</div>
+		</div>
+	</form>
+	<!-- end header search -->
+
+</header>
+	
+
+	<!-- details -->
+	<section class="section details">
+		<!-- details background -->
+		<div class="details__bg" data-bg="../img/background/hotel_drndakan.jpg"></div>
+		<!-- end details background -->
+
+		<!-- details content -->
+		<div class="container">
+			<div class="row">
+				<!-- title -->
+				<div class="col-12">
+					<h1 class="details__title">هۆتێلی دڕندەکان </h1>
+				</div>
+				<!-- end title -->
+
+				<!-- content -->
+				<div class="col-12 col-xl-6">
+					<div class="card card--details">
+						<div class="row">
+							<!-- card cover -->
+							<div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-5">
+								<div class="card__cover">
+									<img src="../img/Movies/hotel_drndakan.jpg" alt="">
+								</div>
+							</div>
+							<!-- end card cover -->
+
+							<!-- card content -->
+							<div class="col-12 col-sm-8 col-md-8 col-lg-9 col-xl-7">
+								<div class="card__content">
+									<div class="card__wrap">
+										<span class="card__rate"><i class="icon ion-ios-star"></i>7.1 IMDB</span>
+
+										<ul class="card__list">
+											<li>Full HD</li>
+										</ul>
+									</div>
+
+									<ul class="card__meta">
+										<li><span>چەشن :</span><a>خێزانی</a> <a>سەرکێشی</a>
+										<a>کۆمیدی</a></li>
+										<li><span>ساڵی بەرهەمهێنان:</span> 2012</li>
+										<li><span>ماوە:</span> 80 خولەك</li>
+										<li><span>ئامادەکردنی:</span> <a>سینیۆریتی به‌رهه‌م </a> </li>
+									</ul>
+
+									<div class="card__description card__description--details">
+										دراکولا کە لە دوور لە جیهانی مرۆڤەکانەوە هۆتێلێکی درووست کردوە کە دەرجەم دڕندە و زەبەلا‌حێک تێدا کۆ دەبێتەوە
+									</div>
+								</div>
+							</div>
+							<!-- end card content -->
+						</div>
+					</div>
+				</div>
+				<!-- end content -->
+
+				<!-- player -->
+				<div class="col-12 col-xl-6">
+
+					<div class="trailer1">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/2Ioqovct5Vs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					
+					<div class="trailer2">
+						<iframe width="100%" height="280" src="https://www.youtube.com/embed/2Ioqovct5Vs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				    </div>
+
+				</div>			
+				<!-- end player -->
+
+			</div>
+		</div>
+		<!-- end details content -->
+	</section> 
+
+
+
+	
+	
+
+	<section class="content">
+		<div class="content__head">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+
+						<h2 class="content__title">سێرڤەرەکانی تەماشاکردن</h2>
+						
+						<ul class="nav nav-tabs server_changer" id="content__tabs" role="tablist">
+						
+							<li class="nav-item">
+								<a class="nav-link active" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="false">ڤیدمۆلی</a>
+							</li>
+
+							
+						
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<!-- content tabs -->
+			<div class="tab-content" id="myTabContent">
+
+				<div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="1-tab">
+					<div class="row">
+
+						<div class="iframe-container">
+							<iframe src="https://vidmoly.to/embed-uqcbre87mf6g.html" scrolling="no" frameborder="0" width="640" height="360" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+						</div>				
+
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="2-tab">
+					<div class="row">
+
+						<div class="iframe-container">
+							<iframe src="https://drive.google.com/file/d/1H-MgODjQGl23aKnsRQxZcIpynJmfQgJr/preview" width="640" height="480" allow="autoplay"></iframe>
+						</div>							
+						
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="3-tab">
+					<div class="row">
+
+						<div class="iframe-container">
+							<iframe src="https://drive.google.com/file/d/1H-MgODjQGl23aKnsRQxZcIpynJmfQgJr/preview" width="640" height="480" allow="autoplay"></iframe>
+						</div>
+						
+					</div>
+				</div>
+
+			</div>
+			<!-- end content tabs -->
+		</div>
+	</section>
+
+	<section class="content">
+		<div class="content__head">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<!-- content title -->
+						<h2 class="content__title">دابەزاندن</h2>
+						<!-- end content title -->
+
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<!-- content tabs -->
+			<div class="tab-content" id="myTabContent">
+
+				<div class="download_changer">
+					<a href="https://vidmoly.me/d/uqcbre87mf6g"  target="_blank">ڤیدمۆلی</a>
+					
+				</div>
+
+			</div>
+			<!-- end content tabs -->
+		</div>
+	</section>
+	<br>
+
+	
+	<!-- footer -->
+	<footer class="footer">
+		<div class="container">
+			<a href='https://t.me/K4rtoni_kurdi' id='telegram' style='display: inline;' target='_blank' title='Telegram'><i class='fab fa-telegram'></i></a>
+			<div class="row"> <!--
+				
+				<div class="col-12 col-md-3">
+					<h6 class="footer__title">پەیجەکەمان</h6>
+					<ul class="footer__app">
+						<li><a href="https://www.facebook.com/AnimeInKurdish"><img src="../img/facebook.png" alt=""></a></li>
+						<li><a href="https://www.youtube.com/channel/UCPaKdZeAI8lrUOQe2T06s_g"><img src="../img/KurdNightcoreicon.png" alt=""></a></li>
+					</ul>
+				</div>
+				
+
+				
+				<div class="col-6 col-sm-4 col-md-3">
+					<h6 class="footer__title">ئەپەکانمان داببەزێنە</h6>
+					<ul class="footer__social">
+						<li class="IOS"><a href="../apps.html"><i class="icon ion-logo-apple"></i></a></li>
+						<li class="Android"><a href="../apps.html"><i class="icon ion-logo-android"></i></a></li>
+						<li class="Windows"><a href="../apps.html"><i class="icon ion-logo-windows"></i></a></li>
+					</ul>
+				</div>
+				
+
+				
+				<div class="col-6 col-sm-4 col-md-3">
+					<h6 class="footer__title">سەرچاوەکان</h6>
+					<ul class="footer__list">
+						<li><a href="../about.html">سەبارەت بە ئێمە</a></li>
+						<li><a href="../support.html">پشتگیریمان بکە</a></li>
+					</ul>
+				</div>
+				
+
+				
+				<div class="col-12 col-sm-4 col-md-3">
+					<h6 class="footer__title">پەیوەندیمان پێوە بکە</h6>
+					<ul class="footer__list">
+						<li><p>ehsanayub80@gmail.com</p></li>
+					</ul>
+					
+					<ul class="footer__social">
+						<li class="facebook"><a href="https://www.facebook.com/AnimeInKurdish"><i class="icon ion-logo-facebook"></i></a></li>
+						<li class="instagram"><a href="https://www.instagram.com/anime_inkurdish/"><i class="icon ion-logo-instagram"></i></a></li>
+						<li class="twitter"><a href="https://www.facebook.com/AnimeInKurdish"><img src="../img/Youtube-512.png" width="20" height="22"></a></li>
+						</ul>
+				</div>
+				
+
+				
+				--> <div class="col-12">
+					<div class="footer__copyright">
+						<small><p>هەموو مافی پارێزراوە بۆ کارتۆنی کوردی 2021</p></small>
+						<small><p><a href="https://ehsandesigner.tech/" target="blank">درووستکراوە لەلایەن : ئیحسان دیزاینەر</a></p></small>
+					</div>
+</div>				
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
+
+	<!-- JS -->
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/bootstrap.bundle.min.js"></script>
+	<script src="../js/owl.carousel.min.js"></script>
+	<script src="../js/jquery.mousewheel.min.js"></script>
+	<script src="../js/jquery.mCustomScrollbar.min.js"></script>
+	<script src="../js/wNumb.js"></script>
+	<script src="../js/nouislider.min.js"></script>
+	<script src="../js/plyr.min.js"></script>
+	<script src="../js/jquery.morelines.min.js"></script>
+	<script src="../js/photoswipe.min.js"></script>
+	<script src="../js/photoswipe-ui-default.min.js"></script>
+	<script src="../js/main.js"></script>
+</body>
+
+</html>
