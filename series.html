@@ -1,0 +1,3097 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+
+<head>
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="utf-8">
+	
+	<style>
+        @font-face {
+    font-family: "Rabar_013";
+    src: url("fonts/Rabar_013.eot"); /* IE9 Compat Modes */
+    src: url("fonts/Rabar_013.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+        url("fonts/Rabar_013.ttf") format("truetype"), /* Safari, Android, iOS */
+        url("fonts/Rabar_013.woff") format("woff"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+    }
+    </style>
+
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CUbuntu:300,400,500,700" rel="stylesheet">
+
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+	<link rel="stylesheet" href="css/nouislider.min.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/plyr.css">
+	<link rel="stylesheet" href="css/photoswipe.css">
+	<link rel="stylesheet" href="css/default-skin.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- Favicons -->
+	<link rel="icon" type="image/png" href="icon/favicon-32x32.png" sizes="32x32">
+	<link rel="apple-touch-icon" href="icon/favicon-32x32.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="icon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="icon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="icon/apple-touch-icon-144x144.png">
+
+	<meta name="description" content="وێبسایتێك تایبەت بە ئەلقە و فیلمی ئەنیمێ ژێرنووسكراو بە كوردی">
+	<meta name="keywords" content="anime in kurdish, anime kurd, kurd anime, kurdish anime, kurdish subtitle,
+	kurd anime naruto, kurdish anime sub, ئەنیمێ بە كوردی ،كوردئەنیمێ، ئەنیمێ كورد، ئەنێمی، ئەنیمێ ژێرنووس">  
+	<meta name="author" content="Kartoni Kurdi">
+	<title>Series</title>
+
+</head>
+<body class="body">
+	
+<!-- header -->
+<header class="header">
+	<div class="header__wrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="header__content">
+						<!-- header logo -->
+						<a href="index.html" class="header__logo">
+							<img src="img/2.png" alt="" >
+						</a>
+						<!-- end header logo -->
+
+						<!-- header nav -->
+						<ul class="header__nav">
+							<!-- dropdown -->
+							<li class="header__nav-item">
+								<a href="index.html" class="header__nav-link">سەرەتا</a>
+							</li>
+							<!-- end dropdown -->
+							
+
+							<!-- dropdown -->
+							<li class="header__nav-item">
+								<a href="movies.html" class="header__nav-link">فیلمەکان</a>
+							</li>
+							
+							<!-- <li class="header__nav-item">
+								<a href="series.html" class="header__nav-link">زنجیرەکان</a>
+							</li> -->
+
+							
+							<li class="header__nav-item">
+								<a href="staff.html" class="header__nav-link">ستاف</a>
+							</li>
+							
+							<li class="header__nav-item">
+								<a href="about.html" class="header__nav-link">سەبارەت</a>
+							</li>
+
+							<li id="mobile" class="header__nav-item">
+								<a target="_blank" href="https://www.facebook.com/Kartoni-Kurdi-105081544697058/" class="header__nav-link">فەیسبووك</a>
+							</li>
+
+							<li id="tablet" class="header__nav-item">
+								<a target="_blank" href="https://www.facebook.com/Kartoni-Kurdi-105081544697058/" class="header__nav-link">فەیسبووك</a>
+							</li>
+
+							<!-- dropdown -->
+							<div id="computer" class="dropdown_padd">
+
+								<li class="dropdown header__nav-item">
+									<a class="dropdown-toggle header__nav-link header__nav-link--more" href="#" role="button" id="dropdownMenuMore" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon ion-ios-more"></i></a>
+	
+									<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuMore">
+										<li><a target="_blank" href="https://www.facebook.com/Kartoni-Kurdi-105081544697058/">فەیسبووك</a></li>
+										
+									</ul>
+								</li>
+
+							</div>
+							<!-- end dropdown -->
+
+							
+
+							
+						</ul>
+						<!-- end header nav -->
+
+						<!-- header auth -->
+							<div class="header__auth">
+								<button class="header__search-btn" type="button" onclick="topfunction()">
+									<i class="icon ion-ios-search"></i>
+								</button>
+
+							
+						</div>
+						<!-- end header auth -->
+
+						<!-- header menu btn -->
+						<button class="header__btn" type="button">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+						<!-- end header menu btn -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- header search -->
+	<form action="" class="header__search">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="header__search-content">
+						
+
+						<input type="text" id="myInput" autocomplete="off" onkeyup="searchFunction()" placeholder="ناوی ئەو کارتۆنە بنووسە کە بەدوای دەگەڕێیت">
+
+						
+						<button id="click" onclick="sfunction()" type="button">گەڕان</button>
+						
+						
+					</div>
+
+					<div id="sfunction" class="searchd">
+
+						<ul class="footer__listb" id="myUL">
+							<li><img src="img/search/ojiisannolamp.jpg" alt="" width="70px" height="100px"><a href="ShortFilm/ojjisannolamp.html">Grandfather's Lamp چراکەی باپیرەم</a></li>
+							<li><img src="img/search/rain town.jpg" alt="" width="70px" height="100px"><a href="ShortFilm/raintown.html">Rain Town شارۆچکەی باران</a></li>
+							<li><img src="img/search/thegirlfromtheotherside.jpg" alt="" width="70px" height="100px"><a href="ShortFilm/thegirlfromtheotherside.html">The Girl From the Other Side کچەکەی لایەکەی دیکە</a></li>
+							<li><img src="img/search/castleinthesky.jpg" alt="" width="70px" height="100px"><a href="movies/castleinthesky.html">Castle In The Sky قەڵایەك لە ئاسمان</a></li>
+							<li><img src="img/search/YonaOfTheDawn.jpg" alt="" width="70px" height="100px"><a href="Series/YonaOfTheDawn.html">Yona Of The Dawn کازیوەی یۆنا</a></li>
+							<li><img src="img/search/tonarinoseki.jpg" alt="" width="70px" height="100px"><a href="Series/TonariNoSeki.html">Tonari no Seki-kun سێکی-کن مامۆستا لە کات کوشتن</a></li>
+							<li><img src="img/search/udonnokuni.jpg" alt="" width="70px" height="100px"><a href="Series/UdonNoKuni.html">Poco's Udon World جیهانی مەعکەرۆنەی پۆکۆ</a></li>
+							<li><img src="img/search/nonnonbiyori.jpg" alt="" width="70px" height="100px"><a href="Series/nonnonbiyori.html">Non Non Biyori نۆن نۆن بیۆری</a></li>
+							<li><img src="img/search/heyacamp.jpg" alt="" width="70px" height="100px"><a href="Series/heyacamp.html">Heya Camp خێوەتگەی ژوورەکە</a></li>
+							<li><img src="img/search/hyouka.jpg" alt="" width="70px" height="100px"><a href="Series/hyouka.html">Hyouka هیۆکا</a></li>
+							<li><img src="img/search/mushishi.jpg" alt="" width="70px" height="100px"><a href="Series/mushishi.html">Mushishi موشیشی</a></li>
+							<li><img src="img/covers/AkinoKanade.jpg" alt="" width="70px" height="100px"><a href="ShortFilm/AkiNoKanade.html">Aki No Kanade كچە تەپڵ لیدەرەكە</a></li>
+							<li><img src="img/covers/banana.jpg" alt="" width="70px" height="100px"><a href="Series/BananaFish.html">Banana Fish بانانە فیش</a></li>
+							<li><img src="img/covers/B the begining.jpg" alt="" width="70px" height="100px"><a href="Series/Bthebeginning.html">B The Beginning (B: The Beginning) بی دەستپێكەكە</a></li>
+							<li><img src="img/covers/BlackFox.jpg" alt="" width="70px" height="100px"><a href="movies/BlackFox.html">Black Fox ڕێوی ڕەش</a></li>
+							<li><img src="img/covers/91-xhsX3g8L._SL1500_.jpg" alt="" width="70px" height="100px"><a href="Series/dororo.html">Dororo دۆرۆرۆ</a></li>
+							<li><img src="img/covers/erased.jpg" alt="" width="70px" height="100px"><a href="LiveAction/Erased.html">Erased (Boku dake ga Inai Machi) سڕینەوە</a></li>
+							<li><img src="img/covers/ggg.jpg" alt="" width="70px" height="100px"><a href="movies/graveOfFireflies.html">Grave Of Fireflies (hotaru no haka) گۆڕێ گوڵەئەستیرەكان</a></li>
+							<li><img src="img/covers/HerBlueSky.jpg" alt="" width="70px" height="100px"><a href="movies/HerBlueSky.html">Her Blue Sky ئاسمانە شینەكەی ئەو</a></li>
+							<li><img src="img/covers/haikyuu.jpg" alt="" width="70px" height="100px"><a href="Series/haikyuu.html">Haikyuu هایكیو</a></li>
+							<li><img src="img/covers/Hotarubi no Mori.jpg" alt="" width="70px" height="100px"><a href="movies/HotarubinoMori.html">Hotarubi no Mori e (Into the Forest of Firefly Lights) بەرەو دارستانی گوڵەئەستیرەكان</a></li>
+							<li><img src="img/covers/2.jpg" alt="" width="70px" height="100px"><a href="Series/IdInvaded.html">ID Invaded (ID:Invaded) ناسنامە : پەلاماردراو</a></li>
+							<li><img src="img/covers/japansinks.jpg" alt="" width="70px" height="100px"><a href="Series/japansinks.html">Japan Sinks 2020 (Nihon Chinbotsu 2020) لافاوی ژاپۆن</a></li>
+							<li><img src="img/covers/hono.jpg" alt="" width="70px" height="100px"><a href="ShortFilm/KanojotoKanojonoNeko.html">Kanojo to Kanojo no Neko (She and Her Cat: Their Standing Points) ئەو و پشیلەكەی</a></li>
+							<li><img src="img/covers/maryandtewitch.jpg" alt="" width="70px" height="100px"><a href="movies/MaryAndTheWitchsFlower.html">Mary And The Witch's Flower (Meari to majo no hana) ماری و گوڵی جادووگەرەكە</a></li>
+							<li><img src="img/covers/moribito.jpg" alt="" width="70px" height="100px"><a href="Series/Moribito.html">Moribito Guardian Of The Spirit (Seirei no Moribito) پاسەوانی ڕۆحە مەزنەكە</a></li>
+							<li><img src="img/covers/modestHeros.jpg" alt="" width="70px" height="100px"><a href="movies/ModestHeroes.html">Modest Heroes پاڵەوانە بێفیزەكان</a></li>
+							<li><img src="img/covers/samurai champloo.jpg" alt="" width="70px" height="100px"><a href="Series/samuraichamploo.html">Samurai Champloo سامۆرای چامپلوو</a></li>
+							<li><img src="img/covers/shelter.jpg" alt="" width="70px" height="100px"><a href="ShortFilm/Shelter.html">Shelter پەناگە</a></li>
+							<li><img src="img/covers/f1.jpg" alt="" width="70px" height="100px"><a href="movies/slamdunk.html">Slam Dunk All Movies سلام دانك</a></li>
+							<li><img src="img/covers/thegreatepasaage.jpg" alt="" width="70px" height="100px"><a href="Series/TheGreatPassage.html">The Great Passage (Fune wo Amu) ڕێڕەوی مەزن</a></li>
+							<li><img src="img/covers/Tsumiki no le.jpg" alt="" width="70px" height="100px"><a href="ShortFilm/TsumikiNoLe.html">The House of Small Cubes (Tsumiki No Ie) خانووی شەشپاڵووە بچووكەكان</a></li>
+							<li><img src="img/covers/tsurune.jpg" alt="" width="70px" height="100px"><a href="Series/tsurune.html">Tsurune تسورونێ</a></li>
+							<li><img src="img/covers/tokyo m.jpg" alt="" width="70px" height="100px"><a href="Series/TokyoMagnitude.html">Tokyo Magnitude 8:0 بوومەلەرزەی تۆكیۆ</a></li>
+							<li><img src="img/covers/tayfoo.jpg" alt="" width="70px" height="100px"><a href="ShortFilm/Typhoon Noruda.html">Typhoon Noruda (Taifuu no Noruda) زریانی نۆروودا</a></li>
+							<li><img src="img/covers/violet.jpg" alt="" width="70px" height="100px"><a href="movies/violetevergarden2019.html">Violet Evergarden Eternity and the Auto Memory Doll 2019 ڤایۆلێت ئێڤێرگاردێن</a></li>
+							<li><img src="img/covers/LilSpiederGirl.jpg" alt="" width="70px" height="100px"><a href="ShortFilm/Li'lSpiderGirl.html">Wasurenagumo (Li'l Spider Girl) </a></li>
+							<li><img src="img/covers/yurucamp.jpg" alt="" width="70px" height="100px"><a href="Series/YuruCamp.html">Yuru Camp (Laid-Back Camp) خێوەتگەی پشوودان</a></li>
+							<br>
+						</ul>
+
+					</div>
+
+				</div>
+
+				
+			</div>
+		</div>
+	</form>
+	<!-- end header search -->
+
+</header>
+<!-- end header -->
+
+<br><br><br><br>
+
+   
+	<section class="content" id="">
+		<div class="content__head">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<!-- content title -->
+						<h2 class="content__title">هەموو زنجیرەکان</h2>
+						<!-- end content title -->
+
+						<!-- content tabs nav -->
+						<ul class="nav nav-tabs content__tabs" id="content__tabs" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true">هەموو</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">ئاکشن</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false">کۆمیدی</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#tab-4" role="tab" aria-controls="tab-4" aria-selected="false">دراما</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#tab-5" role="tab" aria-controls="tab-5" aria-selected="false">تاوان</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#tab-6" role="tab" aria-controls="tab-6" aria-selected="false">سەرکێشی</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#tab-7" role="tab" aria-controls="tab-7" aria-selected="false">خۆشەویستی</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#tab-8" role="tab" aria-controls="tab-8" aria-selected="false">پاڕچەیەك.لە.ژیان</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#tab-9" role="tab" aria-controls="tab-9" aria-selected="false">مەتەڵ</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#tab-10" role="tab" aria-controls="tab-10" aria-selected="false">وەرزشی</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#tab-" role="tab" aria-controls="tab-10" aria-selected="false"></a>
+							</li>
+						</ul>
+						<!-- end content tabs nav -->
+
+						<!-- content mobile tabs nav -->
+						<div class="content__mobile-tabs" id="content__mobile-tabs">
+							<div class="content__mobile-tabs-btn dropdown-toggle" role="navigation" id="mobile-tabs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<input type="button" value="هەموو">
+								<span></span>
+							</div>
+
+							<div class="content__mobile-tabs-menu dropdown-menu" aria-labelledby="mobile-tabs">
+								<ul class="nav nav-tabs" role="tablist">
+									<li class="nav-item"><a class="nav-link active" id="1-tab" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true">هەموو</a></li>
+
+									<li class="nav-item"><a class="nav-link" id="2-tab" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">ئاکشن</a></li>
+
+									<li class="nav-item"><a class="nav-link" id="3-tab" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false">کۆمیدی</a></li>
+
+									<li class="nav-item"><a class="nav-link" id="4-tab" data-toggle="tab" href="#tab-4" role="tab" aria-controls="tab-4" aria-selected="false">دراما</a></li>
+
+									<li class="nav-item"><a class="nav-link" id="5-tab" data-toggle="tab" href="#tab-5" role="tab" aria-controls="tab-5" aria-selected="false">تاوان</a></li>
+
+									<li class="nav-item"><a class="nav-link" id="6-tab" data-toggle="tab" href="#tab-6" role="tab" aria-controls="tab-6" aria-selected="false">سەرکێشی</a></li>
+
+									<li class="nav-item"><a class="nav-link" id="7-tab" data-toggle="tab" href="#tab-7" role="tab" aria-controls="tab-7" aria-selected="false">خۆشەویستی</a></li>
+
+									<li class="nav-item"><a class="nav-link" id="8-tab" data-toggle="tab" href="#tab-8" role="tab" aria-controls="tab-8" aria-selected="false">پاڕچەیەك.لە.ژیان</a></li>
+
+									<li class="nav-item"><a class="nav-link" id="9-tab" data-toggle="tab" href="#tab-9" role="tab" aria-controls="tab-9" aria-selected="false">مەتەڵ</a></li>
+
+									<li class="nav-item"><a class="nav-link" id="10-tab" data-toggle="tab" href="#tab-10" role="tab" aria-controls="tab-10" aria-selected="false">وەرزشی</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- end content mobile tabs nav -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<!-- content tabs -->
+			<div class="tab-content" id="myTabContent">
+
+				<div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="1-tab">
+					<div class="row">
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/B the begining.jpg" alt="">
+											<a class="card__play" href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												<i class="icon ion-ios-play"></i>
+											</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/Bthebeginning.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/Bthebeginning_s2.html">وەرزی دووەم</a></li>
+												</ul>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">B The Beginning &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/Bthebeginning.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/Bthebeginning_s2.html">وەرزی دووەم</a></li>
+												</ul>
+											<span class="card__category">
+												<p>ئاکشن</p>
+												<p>مەتەڵ</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.4 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>17+</li>
+													<li>2018</li>
+											  </ul>
+										  </div>
+											<div class="card__description">
+												 <p>لە جیهانێك كە تەكنەلۆجیای نوێ تیایدا بەردەستە، كۆمەڵێك تاوان و كوشتن لە شاری كريمۆنا ڕوودەدات. كۆكو كە پاڵەوانی ئەم ئەنیمێە و كيس كە بلیمەترین لێكۆڵەری ناو ئۆفیسی شایە و ڕیكخراوێكی تیرۆرستی نادیار كە پێكدێت لە كۆمەلێك كەسایەتی تاوانباری تاوانەكانیان دەكەن لەم شارە .</p>										
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/kemonojihen.jpg" alt="">
+											<a href="Series/KemonoJihen.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/KemonoJihen.html">Kemono Jihen</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+												<p>مەتەڵ</p>
+												<p>سەروو سرووشت</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.7 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>+17</li>
+									                <li>2021</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>چیرۆکی ئەم ئەنیمیە دەستپێدەکات کاتێک زنجیرەیەک لە ئاژەڵ دەمرن و لاشەکانیان بۆگەن دەبێت لە گوندێکدا، بۆیە لێکۆڵەرێک بە ناوی ئینوگامی لە شاری تۆکیۆوە بانگ دەکرێت بۆ شیکارکردنی کەیسەکە، کە لەوێدا چاوی بە کوڕێک دەکەوێت بە ناوی دۆرۆتابۆ، و ئەم کوڕە یارمەتی لێکۆڵەرەکە دەدات بەڵام دەردەکەوێت کە هێزی سەروو سڕووشت لە پشت ئەم ڕووداوانەن و دۆرۆتابۆ تەنها نازناوێکە و ناوی ڕاستەقینەی کوڕەکە نییە
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/yurucamp.jpg" alt="">
+											<a class="card__play" href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												<i class="icon ion-ios-play"></i>
+											</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/YuruCamp.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/YuruCamp_s2.html">وەرزی دووەم</a></li>
+												</ul>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Yuru Camp &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/YuruCamp.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/YuruCamp_s2.html">وەرزی دووەم</a></li>
+												</ul>
+											</h3>
+											<span class="card__category">
+												<p>کۆمیدی</p>
+								                <p>پارچەیەك لە ژیان</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.3 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2018</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>چیرۆكەكە باسی دوو كچ دەكات , یەكەمیان رين كە حەزی بە گەشتی خێوەتگەیی هەیە لەدەوری دەریاچەكان كە دیمەنێكی سەرنجڕاكێش دەبەخشێتە شاخی فوجی, و كچەكەی دیكە نادیشیكۆ كە حەزی بە لێخورینی ماتۆڕسكیلە لە دەوری ئەو ناوچانەی شاخی فوجی, دوای یەكتربینی رين و نادیشیكۆ بڕیاڕ دەدەن بە كردنی گەشتی خێوەتگەیی و خواردنی ڕامێن و چێژ بینین لە دیمەنەكان بەیەكەوە
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/YonaOfTheDawn.jpg" alt="">
+											<a href="Series/YonaOfTheDawn.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/YonaOfTheDawn.html">Yona Of The Dawn</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+												<p>سەرکێشی</p>
+												<p>کۆمیدی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.1 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>+13</li>
+									                <li>2014</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>شازادەیەک بە ناوی یۆنا ژیانێکی خۆش و ئاسان دەژیێت لەناو مەملەکەتێک بەناوی کوکا، بەڵام هەموو شتێک لە شەوێکدا دەگۆڕدرێت، کە تیایدا باوکی دەکوژرێت و خیانەتیان لێ دەکرێت لەلایەن کوڕ مامەکەی کە یۆنای خۆشی دەویست، بەم شێوەیەش ژیانی یۆنا دەکەوێتە مەترسی و ناچارە ڕابکات لەگەڵ هاوڕێی منداڵی کە ناوی سۆن هاکە
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/udonnokuni.jpg" alt="">
+											<a href="Series/UdonNoKuni.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/UdonNoKuni.html">Poco's Udon World</a></h3>
+											<span class="card__category">
+												<p>پارچەیەك لە ژیان</p>
+								                <p>خەیاڵی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.8 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>+13</li>
+									                <li>2016</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>ڕووداوەکان لە پارێزگای کاگاوا ڕوودەدات کە ناسراوە بە پارێزگای ئۆدۆن(مەعکەرۆنە)، باسی کوڕێك دەکات بەناوی سۆتا کە تەمەنی سی ساڵە منداڵێکی بچووک دەناسێت بەناوی پۆکۆ و بەخێوی دەکات، ڕۆژێک لە ڕۆژان ئەم منداڵە دوو گوێ و کلکێکی بۆ درووست دەبێت، ئایا کوڕە گەنجەکە لەم کاتەدا چی دەکات؟
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/tonarinoseki.jpg" alt="">
+											<a href="Series/TonariNoSeki.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/TonariNoSeki.html">Tonari no Seki-kun</a></h3>
+											<span class="card__category">
+												<p>کۆمیدی</p>
+								                <p>قوتابخانە</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.6 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>All Ages</li>
+									                <li>2014</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>ئەم چیرۆکە باسی کچێک دەکات کە لە تەنیشت کوڕێکەوە دادەنیشێت لە پۆلدا دادەنیشێت بە ناوی سێکی، زۆرجار لە کاتی وانەکاندا سێکی کاردەکات لەسەر درووستکردنی سەمەرەترین یارییەکان لەسەر مێزەکەی، هەموو ڕۆژێک یۆکۆی خۆی دەبینێتەوە کە گرنگی بەو کارانە دەدات کە سێکی دەیکات و زۆرجار کۆتایی دێت بەوەی سەرزەنشت بکرێت لە لایەن مامۆستاکانیەوە، لە کاتێکدا هاوڕێکەی سێکی ڕزگاری دەبێت بە بێ هیچ سزایەك
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/nonnonbiyori.jpg" alt="">
+											<a class="card__play" href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												<i class="icon ion-ios-play"></i>
+											</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/nonnonbiyori.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/nonnonbiyori_s2.html">وەرزی دووەم</a></li>
+													<li><a href="Series/nonnonbiyori_s3.html">وەرزی سێیەم</a></li>
+												</ul>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Non Non Biyori &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/nonnonbiyori.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/nonnonbiyori_s2.html">وەرزی دووەم</a></li>
+													<li><a href="Series/nonnonbiyori_s3.html">وەرزی سێیەم</a></li>
+												</ul>
+											</h3>
+											<span class="card__category">
+												<p>کۆمیدی</p>
+								                <p>قوتابخانە</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.0 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2013</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>باسی کچێك دەکات بە ناوی هوتارۆ کە ژیانیان لە شارەوە گوازراوەتەوە بۆ گوند، و چووەتە قوتابخانەیەکی نوێ کە تەنها چوار قوتابی تێدایە و ئەنیمیەکە باسی ژیانی ڕۆژانەی ئەوان دەکات
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/haikyuu.jpg" alt="">
+											<a class="card__play" href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												<i class="icon ion-ios-play"></i>
+											</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/haikyuu.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/haikyuu_s2.html">وەرزی دووەم</a></li>
+													<li><a href="Series/haikyuu_s3.html">وەرزی سێیەم</a></li>
+													<li><a href="Series/haikyuu_s4.html">وەرزی چوارەم</a></li>
+												</ul>
+
+											
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Haikyuu &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/haikyuu.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/haikyuu_s2.html">وەرزی دووەم</a></li>
+													<li><a href="Series/haikyuu_s3.html">وەرزی سێیەم</a></li>
+													<li><a href="Series/haikyuu_s4.html">وەرزی چوارەم</a></li>
+												</ul>
+											</h3>
+											<span class="card__category">
+												<p>وەرزشی</p>
+								                <p>کۆمیدی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.6 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2014</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>چیرۆكی ئەم ئەنیمێە سەبارەت بە "هيناتا شۆیۆ"یە كە دەیەوێت ببێتە یاریزانێكی لێهاتووی تۆپی بالە لە دوای ئەوەی یاریكردنی كوڕێك دەبینێت كە بە زەبەلاحی بچووك ناسراوە و بەهۆی ئەوە حەز لەم یاریە دەكات هەوڵ دەدات كە بچێتە یانەیەكی تۆپی بالە و چیرۆكی ئەم كوڕە لەگەڵ تیمێكی لەبیركراو دەستپێدەكات كە نازناوی "ئەو قەڵەڕەشانەی كە ناتوانن بفڕن"یان لێ نراوە
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/haikyuu_rikuvskuu.jpg" alt="">
+											<a href="Series/haikyuu_rikuvskuu.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/haikyuu_rikuvskuu.html">Haikyuu Riku VS Kuu (OVA)</a></h3>
+											<span class="card__category">
+												<p>وەرزشی</p>
+								                <p>کۆمیدی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.8 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2020</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>یەکێکە لە بەشە تایبەتەکانی هایکیو کە باسی یاری نێوان هەردوو تیمی نیکۆما و فوکورۆدانی دەکات بۆ گەیشتن بە پاڵەوانێتی نیشتیمانی لە شاری تۆکیۆ
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/mushishi.jpg" alt="">
+											<a class="card__play" href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												<i class="icon ion-ios-play"></i>
+											</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/mushishi.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/mushishi_s2.html">وەرزی دووەم</a></li>
+												</ul>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mushishi &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/mushishi.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/mushishi_s2.html">وەرزی دووەم</a></li>
+												</ul>
+											</h3>
+											<span class="card__category">
+												<p>پارچەیەك لە ژیان</p>
+								                <p>مەتەڵ</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.7 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2005</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>باسی گەشتكەرێك دەكات بە ناوی (جینكۆ) كە لە گوندێكەوە گەشت دەكات بۆ گوندێكی دیكە بە ئامانجی یارمەتیدانی خەڵكی لە بوونەوەرێك بە ناوی موشی، موشی نە ئاژەڵ و نە ڕووەكە و نە مرۆڤ و شێوەی جیاواز هەڵدەگرێت، هەریەك لەوان چیرۆكێكی تایبەتی هەیە كە كاریگەری لە ژیانی مرۆڤ دەكات، لە كاتی تەماشاكردنی ئەم ئەنینیە دەبینن كە جینكۆ لە كاتی هەر گەشتێكیدا چۆن مامەڵە لەگەڵ جیهانی موشی دەكات و كێشەكان چارەسەر دەكات
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+						
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/hyouka.jpg" alt="">
+											<a href="Series/hyouka.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/hyouka.html">Hyouka</a></h3>
+											<span class="card__category">
+												<p>مەتەڵ</p>
+								                <p>قوتابخانە</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.1 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2012</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>باسی كوڕێك دەكات بە ناوی (هۆتارو ئۆریكی) كوڕێكی تەمبەڵ كە وزەی خۆی بە فیڕۆ نادات و ئەو زۆر كەمتەرخەمە بەڵام ئەو بە شێوەیەكی سەرسووڕهێنەر مەتەڵەكان شیكار دەكات، ڕۆژێك لەسەر داواكاری خوشكەكەی دەچێتە یانەی ئەدەبی كلاسیكی و لەوێ كچێك بە ناوی (چیتاندا ئیرۆ) دەناسێت كە داوای شیكاركردنی كەیسێكی لێ دەكات كە 45 ساڵ لەمەو پێش ڕوویدابوو
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+												
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/heyacamp.jpg" alt="">
+											<a href="Series/heyacamp.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/heyacamp.html">Heya Camp</a></h3>
+											<span class="card__category">
+												<p>کۆمیدی</p>
+								                <p>سەرکێشی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.2 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2020</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>لە شارۆچكەی ياماناشي، لە قوتابخانەیەك بە ناوی مۆتۆسۆ، یانەیەكە هەیە بە ناوی یانەی هەوای پاك كە سێ ئەندام لە خۆ دەگرێت، نادیشیكۆ كە یەكێكە لە ئەندامەكان دەیەوێت كە كات لە ژووری یانەكەیان بەسەر ببەن، بەڵام دوو ئەندامەكەی دیكە ناچاری دەكەن كە بچن بۆ گەشتێك بە ناوی شارۆچكەی یاماناشی
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/japansinks.jpg" alt="">
+											<a href="Series/japansinks.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/japansinks.html">Japan Sinks 2020</a></h3>
+											<span class="card__category">
+												<p>دراما</p>
+								                <p>خەیاڵی زانستی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>6.6 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>17+</li>
+									                <li>2020</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>كورتەی چیرۆك: باسی خێزانێكی ئاسایی دەكات كە ژیانێكی ئاسایی دەژین و ڕۆژێك تووشی كۆمەڵێك لە بوومەلەرزەی بەهێز دەبنەوە كە دەبێتە هۆی درووستبوونی لافاو و وێرانبوونی وڵاتی ژاپۆن
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/tsurune.jpg" alt="">
+											<a href="Series/tsurune.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/tsurune.html">Tsurune: Kazemai Koukou Kyuudoubu</a></h3>
+											<span class="card__category">
+												<p>وەرزشی</p>
+								                <p>دراما</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.5 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2018</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>ئەم چیرۆكە باسی (میناتۆ نارومیا) دەكات كە یاریزانی تیرهاوێشتنە لە قۆناغی ناوەندی، بەڵام دوای ڕووداوێك ئەم كوڕە دەوەستێت لەسەر ئەو وەرزشە، لە قوتابخانەی دواناوەدنی (میناتۆ) هاوڕێی نوێ دەناسێت و بەیەكەوە هەوڵی بەشداری دەكەن لە یانەی تیرهاوێشتن و بردەنەی نازناو لە پارێزگاكەیان دەكەن
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						
+						
+						
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/moribito.jpg" alt="">
+											<a href="Series/Moribito.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/Moribito.html">Moribito: Guardian of the Spirit</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+								                <p>سەرکێشی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.5 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2007</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>چیرۆكی ئەنیمێەكە باسی ئافرەتێكی جەنگاوەر دەكات بە ناوی (بالسا) كە بەڵێنی پاراساتنی كەسانی دیكەی بەخۆی داوە، و لە گەشتێكیدا بالسا دەگاتە وڵاتی یۆگۆی نوێ، و خاتوونی ئیمبڕاتۆڕی ئەو وڵاتە داوای پاراستنی شازادەی دووەمی كۆشك دەكات لە بالسا، كە ئیمبڕاتۆڕ ویستی كوشتنی هەبوو
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/thegreatepasaage.jpg" alt="">
+											<a href="Series/TheGreatPassage.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/TheGreatPassage.html">The Great Passage</a></h3>
+											<span class="card__category">
+												<p>پارچەیەك لە ژیان</p>
+										        <p>دراما</p>
+										        <p>خۆشەویستی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.6 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>14+</li>
+													<li>2016</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												  <p>چیرۆكی ئەنمیەكە سەبارەت بە میتسویا ماجیمی و ماساشی نیشیوكایە، میتسویا پیاوێكی جدییە و كەم قسە دەكات، بەڵام ماساشی كەسێكی كۆمەڵایەتییە، چیرۆكەكە سەبارەت بە هاوڕێیەتی و بەردەوامی و هەستەكانی ئەو دووانەیە كە هەوڵدەدەن بۆ درووستكردنی فەرهەنگێكی نوێ بەناوی ڕێڕەوی مەزن
+											         </p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+						
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/banana.jpg" alt="">
+											<a href="Series/BananaFish.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/BananaFish.html">Banana Fish</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+										        <p>تاوان</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.6 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>17+</li>
+													<li>2018</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												  <p>چیرۆك : سرووشت وای لە ”ئاش لينكس” كردووە كە كوڕێكی سەرنجڕاكێش بێت، دواتر بەخێوكردنەكەی دەیكات بە بكوژێكی خوێن ساردی بێبەزەیی، هەڵاتوویەك كە بە بەردەوامی دەكوژێت. “ئاش”، ئێستا لە ناوەڕاستی تەمەنی 17 ساڵیدایە، شانیشینەكەی جێهێشتووە دواتر ئەو شەیتانە دەبینێت كە بەخێویكردووە
+											         </p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/2.jpg" alt="">
+											<a href="Series/IdInvaded.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/IdInvaded.html">ID:Invaded</a></h3>
+											<span class="card__category">
+												<p>دراما</p>
+												<p>مەتەڵ</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.9 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>16+</li>
+													<li>2020</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												  <p>ئەم چیرۆكە باسی لێكۆڵەر ” ساكايدۆ” دەكات كە لێكۆڵینەوە لە كوژرانی كچێكی نەناسراو دەكات بە ناوی “كايرۆ تشان” ، بەڵام شیكاركردنی ئەم كەیسە وەكو كەیسی تر نییە ، و ئەویش توشی نهێنی زۆر دەبێتەوە كە جیهانەكەی سەروژێر دەبێت.
+											         </p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+												
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/91-xhsX3g8L._SL1500_.jpg" alt="">
+											<a href="Series/dororo.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/dororo.html">Dororo</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+												<p>سەرکێشی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.1 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>17+</li>
+													<li>2019</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												 <p>ئەم ئەنیمێە دەگەڕێتەوە بۆ ساڵانی ١٤٧٠ ، باسی ئەو كوڕە دەكات كە ٤٨ ئەندامی جەستەی لە دەستداوە ئەویش بەهۆی باوكیەوە كە ڕێكەوتنی لەگەڵ شەیتانەكان دەكات بۆ كۆنتڕۆڵكردنی گەلان ، كاتێك ئەم منداڵە لە دایكدەبێت فرێ دەدرێتە ناو ڕوبارەوە ، و ژیانی بەسەردەبات بە ئەندامی دەستكرد و بۆ ئەوەی ئەندامە ڕاستیەكانی بگەڕێنێتەوە پێویستە هەموو شەیتانكان بكوژێت كە جەستەی ئەویان بردبووو....</p>
+												 
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/samurai champloo.jpg" alt="">
+											<a href="Series/samuraichamploo.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/samuraichamploo.html">Samurai Champloo</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+												<p>کۆمیدی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.5 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>17+</li>
+													<li>2004</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												 <p>ئەم ئەنیمێە باسی سێ كەس دەكات كە قەدەر كۆیاندەكاتەوە دەگەڕێن بە دوای سامۆرایەك كە بۆنی گوڵە بە ڕۆژەی لێدێت چیرۆكەكە لە گوندێكی بچوك دەستپێدەكات كە فەرمانڕەوای ئەو گوندە زوڵم لە خەڵكی دەكات و پارەكانیان دەدزێت</p>
+												 
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+						
+						
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/tokyo m.jpg" alt="">
+											<a href="Series/TokyoMagnitude.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/TokyoMagnitude.html">Tokyo Magnitude 8.0</a></h3>
+											<span class="card__category">
+												<p>دراما</p>
+												<p>مێژووی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.0 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>14+</li>
+													<li>2009</li>
+											  </ul>
+										  </div>
+											<div class="card__description">
+												 <p>ئەم ئەنیمێە باسی بوومەلەرزەیەك دەكات كە لە تۆكیۆدا ڕوودەدات ، ئونوزاوا میرای كچێكی قوتابی قۆناغی ناوەندیە ، ئەم كچە ڕەشبینە لە هەموو شتێكدا
+													ڕقی لە ژیانەو و وادەبینێت كە هەموو شتێك پێویستە وێران بێت، چونكە ئەو هەمیشە تووڕەیە لە دایكو باوكی...</p>										
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+						
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="2-tab">
+					<div class="row">
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/kemonojihen.jpg" alt="">
+											<a href="Series/KemonoJihen.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/KemonoJihen.html">Kemono Jihen</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+												<p>مەتەڵ</p>
+												<p>سەروو سرووشت</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.7 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>+17</li>
+									                <li>2021</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>چیرۆکی ئەم ئەنیمیە دەستپێدەکات کاتێک زنجیرەیەک لە ئاژەڵ دەمرن و لاشەکانیان بۆگەن دەبێت لە گوندێکدا، بۆیە لێکۆڵەرێک بە ناوی ئینوگامی لە شاری تۆکیۆوە بانگ دەکرێت بۆ شیکارکردنی کەیسەکە، کە لەوێدا چاوی بە کوڕێک دەکەوێت بە ناوی دۆرۆتابۆ، و ئەم کوڕە یارمەتی لێکۆڵەرەکە دەدات بەڵام دەردەکەوێت کە هێزی سەروو سڕووشت لە پشت ئەم ڕووداوانەن و دۆرۆتابۆ تەنها نازناوێکە و ناوی ڕاستەقینەی کوڕەکە نییە
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/YonaOfTheDawn.jpg" alt="">
+											<a href="Series/YonaOfTheDawn.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/YonaOfTheDawn.html">Yona Of The Dawn</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+												<p>سەرکێشی</p>
+												<p>کۆمیدی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.1 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>+13</li>
+									                <li>2014</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>شازادەیەک بە ناوی یۆنا ژیانێکی خۆش و ئاسان دەژیێت لەناو مەملەکەتێک بەناوی کوکا، بەڵام هەموو شتێک لە شەوێکدا دەگۆڕدرێت، کە تیایدا باوکی دەکوژرێت و خیانەتیان لێ دەکرێت لەلایەن کوڕ مامەکەی کە یۆنای خۆشی دەویست، بەم شێوەیەش ژیانی یۆنا دەکەوێتە مەترسی و ناچارە ڕابکات لەگەڵ هاوڕێی منداڵی کە ناوی سۆن هاکە
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/moribito.jpg" alt="">
+											<a href="Series/Moribito.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/Moribito.html">Moribito: Guardian of the Spirit</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+								                <p>سەرکێشی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.5 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2007</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>چیرۆكی ئەنیمێەكە باسی ئافرەتێكی جەنگاوەر دەكات بە ناوی (بالسا) كە بەڵێنی پاراساتنی كەسانی دیكەی بەخۆی داوە، و لە گەشتێكیدا بالسا دەگاتە وڵاتی یۆگۆی نوێ، و خاتوونی ئیمبڕاتۆڕی ئەو وڵاتە داوای پاراستنی شازادەی دووەمی كۆشك دەكات لە بالسا، كە ئیمبڕاتۆڕ ویستی كوشتنی هەبوو
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/banana.jpg" alt="">
+											<a href="Series/BananaFish.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/BananaFish.html">Banana Fish</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+										        <p>تاوان</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.6 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>17+</li>
+													<li>2018</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												  <p>چیرۆك : سرووشت وای لە ”ئاش لينكس” كردووە كە كوڕێكی سەرنجڕاكێش بێت، دواتر بەخێوكردنەكەی دەیكات بە بكوژێكی خوێن ساردی بێبەزەیی، هەڵاتوویەك كە بە بەردەوامی دەكوژێت. “ئاش”، ئێستا لە ناوەڕاستی تەمەنی 17 ساڵیدایە، شانیشینەكەی جێهێشتووە دواتر ئەو شەیتانە دەبینێت كە بەخێویكردووە
+											         </p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/91-xhsX3g8L._SL1500_.jpg" alt="">
+											<a href="Series/dororo.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/dororo.html">Dororo</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+												<p>سەرکێشی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.1 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>17+</li>
+													<li>2019</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												 <p>ئەم ئەنیمێە دەگەڕێتەوە بۆ ساڵانی ١٤٧٠ ، باسی ئەو كوڕە دەكات كە ٤٨ ئەندامی جەستەی لە دەستداوە ئەویش بەهۆی باوكیەوە كە ڕێكەوتنی لەگەڵ شەیتانەكان دەكات بۆ كۆنتڕۆڵكردنی گەلان ، كاتێك ئەم منداڵە لە دایكدەبێت فرێ دەدرێتە ناو ڕوبارەوە ، و ژیانی بەسەردەبات بە ئەندامی دەستكرد و بۆ ئەوەی ئەندامە ڕاستیەكانی بگەڕێنێتەوە پێویستە هەموو شەیتانكان بكوژێت كە جەستەی ئەویان بردبووو....</p>
+												 
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/samurai champloo.jpg" alt="">
+											<a href="Series/samuraichamploo.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/samuraichamploo.html">Samurai Champloo</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+												<p>کۆمیدی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.5 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>17+</li>
+													<li>2004</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												 <p>ئەم ئەنیمێە باسی سێ كەس دەكات كە قەدەر كۆیاندەكاتەوە دەگەڕێن بە دوای سامۆرایەك كە بۆنی گوڵە بە ڕۆژەی لێدێت چیرۆكەكە لە گوندێكی بچوك دەستپێدەكات كە فەرمانڕەوای ئەو گوندە زوڵم لە خەڵكی دەكات و پارەكانیان دەدزێت</p>
+												 
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/B the begining.jpg" alt="">
+											<a href="Series/Bthebeginning.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/Bthebeginning.html">B The Beginning</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+												<p>مەتەڵ</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.4 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>17+</li>
+													<li>2018</li>
+											  </ul>
+										  </div>
+											<div class="card__description">
+												 <p>لە جیهانێك كە تەكنەلۆجیای نوێ تیایدا بەردەستە، كۆمەڵێك تاوان و كوشتن لە شاری كريمۆنا ڕوودەدات. كۆكو كە پاڵەوانی ئەم ئەنیمێە و كيس كە بلیمەترین لێكۆڵەری ناو ئۆفیسی شایە و ڕیكخراوێكی تیرۆرستی نادیار كە پێكدێت لە كۆمەلێك كەسایەتی تاوانباری تاوانەكانیان دەكەن لەم شارە .</p>										
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+						
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="3-tab">
+					<div class="row">
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/YonaOfTheDawn.jpg" alt="">
+											<a href="Series/YonaOfTheDawn.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/YonaOfTheDawn.html">Yona Of The Dawn</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+												<p>سەرکێشی</p>
+												<p>کۆمیدی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.1 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>+13</li>
+									                <li>2014</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>شازادەیەک بە ناوی یۆنا ژیانێکی خۆش و ئاسان دەژیێت لەناو مەملەکەتێک بەناوی کوکا، بەڵام هەموو شتێک لە شەوێکدا دەگۆڕدرێت، کە تیایدا باوکی دەکوژرێت و خیانەتیان لێ دەکرێت لەلایەن کوڕ مامەکەی کە یۆنای خۆشی دەویست، بەم شێوەیەش ژیانی یۆنا دەکەوێتە مەترسی و ناچارە ڕابکات لەگەڵ هاوڕێی منداڵی کە ناوی سۆن هاکە
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/tonarinoseki.jpg" alt="">
+											<a href="Series/TonariNoSeki.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/TonariNoSeki.html">Tonari no Seki-kun</a></h3>
+											<span class="card__category">
+												<p>کۆمیدی</p>
+								                <p>قوتابخانە</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.6 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>All Ages</li>
+									                <li>2014</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>ئەم چیرۆکە باسی کچێک دەکات کە لە تەنیشت کوڕێکەوە دادەنیشێت لە پۆلدا دادەنیشێت بە ناوی سێکی، زۆرجار لە کاتی وانەکاندا سێکی کاردەکات لەسەر درووستکردنی سەمەرەترین یارییەکان لەسەر مێزەکەی، هەموو ڕۆژێک یۆکۆی خۆی دەبینێتەوە کە گرنگی بەو کارانە دەدات کە سێکی دەیکات و زۆرجار کۆتایی دێت بەوەی سەرزەنشت بکرێت لە لایەن مامۆستاکانیەوە، لە کاتێکدا هاوڕێکەی سێکی ڕزگاری دەبێت بە بێ هیچ سزایەك
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+						
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/nonnonbiyori.jpg" alt="">
+											<a class="card__play" href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												<i class="icon ion-ios-play"></i>
+											</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/nonnonbiyori.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/nonnonbiyori_s2.html">وەرزی دووەم</a></li>
+													<li><a href="Series/nonnonbiyori_s3.html">وەرزی سێیەم</a></li>
+												</ul>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Non Non Biyori &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/nonnonbiyori.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/nonnonbiyori_s2.html">وەرزی دووەم</a></li>
+													<li><a href="Series/nonnonbiyori_s3.html">وەرزی سێیەم</a></li>
+												</ul>
+											</h3>
+											<span class="card__category">
+												<p>کۆمیدی</p>
+								                <p>قوتابخانە</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.0 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2013</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>باسی کچێك دەکات بە ناوی هوتارۆ کە ژیانیان لە شارەوە گوازراوەتەوە بۆ گوند، و چووەتە قوتابخانەیەکی نوێ کە تەنها چوار قوتابی تێدایە و ئەنیمیەکە باسی ژیانی ڕۆژانەی ئەوان دەکات
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+						
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/haikyuu.jpg" alt="">
+											<a class="card__play" href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												<i class="icon ion-ios-play"></i>
+											</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/haikyuu.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/haikyuu_s2.html">وەرزی دووەم</a></li>
+													<li><a href="Series/haikyuu_s3.html">وەرزی سێیەم</a></li>
+													<li><a href="Series/haikyuu_s4.html">وەرزی چوارەم</a></li>
+												</ul>
+
+											
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Haikyuu &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/haikyuu.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/haikyuu_s2.html">وەرزی دووەم</a></li>
+													<li><a href="Series/haikyuu_s3.html">وەرزی سێیەم</a></li>
+													<li><a href="Series/haikyuu_s4.html">وەرزی چوارەم</a></li>
+												</ul>
+											</h3>
+											<span class="card__category">
+												<p>وەرزشی</p>
+								                <p>کۆمیدی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.6 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2014</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>چیرۆكی ئەم ئەنیمێە سەبارەت بە "هيناتا شۆیۆ"یە كە دەیەوێت ببێتە یاریزانێكی لێهاتووی تۆپی بالە لە دوای ئەوەی یاریكردنی كوڕێك دەبینێت كە بە زەبەلاحی بچووك ناسراوە و بەهۆی ئەوە حەز لەم یاریە دەكات هەوڵ دەدات كە بچێتە یانەیەكی تۆپی بالە و چیرۆكی ئەم كوڕە لەگەڵ تیمێكی لەبیركراو دەستپێدەكات كە نازناوی "ئەو قەڵەڕەشانەی كە ناتوانن بفڕن"یان لێ نراوە
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/heyacamp.jpg" alt="">
+											<a href="Series/heyacamp.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/heyacamp.html">Heya Camp</a></h3>
+											<span class="card__category">
+												<p>کۆمیدی</p>
+								                <p>سەرکێشی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.2 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2020</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>لە شارۆچكەی ياماناشي، لە قوتابخانەیەك بە ناوی مۆتۆسۆ، یانەیەكە هەیە بە ناوی یانەی هەوای پاك كە سێ ئەندام لە خۆ دەگرێت، نادیشیكۆ كە یەكێكە لە ئەندامەكان دەیەوێت كە كات لە ژووری یانەكەیان بەسەر ببەن، بەڵام دوو ئەندامەكەی دیكە ناچاری دەكەن كە بچن بۆ گەشتێك بە ناوی شارۆچكەی یاماناشی
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/yurucamp.jpg" alt="">
+											<a class="card__play" href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												<i class="icon ion-ios-play"></i>
+											</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/YuruCamp.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/YuruCamp_s2.html">وەرزی دووەم</a></li>
+												</ul>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Yuru Camp &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/YuruCamp.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/YuruCamp_s2.html">وەرزی دووەم</a></li>
+												</ul>
+											</h3>
+											<span class="card__category">
+												<p>کۆمیدی</p>
+								                <p>پارچەیەك لە ژیان</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.3 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2018</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>چیرۆكەكە باسی دوو كچ دەكات , یەكەمیان رين كە حەزی بە گەشتی خێوەتگەیی هەیە لەدەوری دەریاچەكان كە دیمەنێكی سەرنجڕاكێش دەبەخشێتە شاخی فوجی, و كچەكەی دیكە نادیشیكۆ كە حەزی بە لێخورینی ماتۆڕسكیلە لە دەوری ئەو ناوچانەی شاخی فوجی, دوای یەكتربینی رين و نادیشیكۆ بڕیاڕ دەدەن بە كردنی گەشتی خێوەتگەیی و خواردنی ڕامێن و چێژ بینین لە دیمەنەكان بەیەكەوە
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+					
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/samurai champloo.jpg" alt="">
+											<a href="Series/samuraichamploo.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/samuraichamploo.html">Samurai Champloo</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+												<p>کۆمیدی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.5 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>17+</li>
+													<li>2004</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												 <p>ئەم ئەنیمێە باسی سێ كەس دەكات كە قەدەر كۆیاندەكاتەوە دەگەڕێن بە دوای سامۆرایەك كە بۆنی گوڵە بە ڕۆژەی لێدێت چیرۆكەكە لە گوندێكی بچوك دەستپێدەكات كە فەرمانڕەوای ئەو گوندە زوڵم لە خەڵكی دەكات و پارەكانیان دەدزێت</p>
+												 
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+												
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="tab-4" role="tabpanel" aria-labelledby="4-tab">
+					<div class="row">
+
+					<!-- card -->
+					<div class="col-6 col-sm-12 col-lg-6">
+						<div class="card card--list">
+							<div class="row">
+								<div class="col-12 col-sm-4">
+									<div class="card__cover">
+										<img src="img/covers/japansinks.jpg" alt="">
+										<a href="Series/japansinks.html" class="card__play">
+											<i class="icon ion-ios-play"></i>
+										</a>
+									</div>
+								</div>
+
+								<div class="col-12 col-sm-8">
+									<div class="card__content">
+										<h3 class="card__title"><a href="Series/japansinks.html">Japan Sinks 2020</a></h3>
+										<span class="card__category">
+											<p>دراما</p>
+											<p>خەیاڵی زانستی</p>
+										</span>
+
+										<div class="card__wrap">
+											<span class="card__rate"><i class="icon ion-ios-star"></i>6.6 IMDB</span>
+
+											<ul class="card__list">
+												<li>Full HD</li>
+												<li>17+</li>
+												<li>2020</li>
+											</ul>
+										</div>
+
+										<div class="card__description">
+											<p>كورتەی چیرۆك: باسی خێزانێكی ئاسایی دەكات كە ژیانێكی ئاسایی دەژین و ڕۆژێك تووشی كۆمەڵێك لە بوومەلەرزەی بەهێز دەبنەوە كە دەبێتە هۆی درووستبوونی لافاو و وێرانبوونی وڵاتی ژاپۆن
+											</p>											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end card -->
+
+					<!-- card -->
+					<div class="col-6 col-sm-12 col-lg-6">
+						<div class="card card--list">
+							<div class="row">
+								<div class="col-12 col-sm-4">
+									<div class="card__cover">
+										<img src="img/covers/tsurune.jpg" alt="">
+										<a href="Series/tsurune.html" class="card__play">
+											<i class="icon ion-ios-play"></i>
+										</a>
+									</div>
+								</div>
+
+								<div class="col-12 col-sm-8">
+									<div class="card__content">
+										<h3 class="card__title"><a href="Series/tsurune.html">Tsurune: Kazemai Koukou Kyuudoubu</a></h3>
+										<span class="card__category">
+											<p>وەرزشی</p>
+											<p>دراما</p>
+										</span>
+
+										<div class="card__wrap">
+											<span class="card__rate"><i class="icon ion-ios-star"></i>7.5 IMDB</span>
+
+											<ul class="card__list">
+												<li>Full HD</li>
+												<li>13+</li>
+												<li>2018</li>
+											</ul>
+										</div>
+
+										<div class="card__description">
+											<p>ئەم چیرۆكە باسی (میناتۆ نارومیا) دەكات كە یاریزانی تیرهاوێشتنە لە قۆناغی ناوەندی، بەڵام دوای ڕووداوێك ئەم كوڕە دەوەستێت لەسەر ئەو وەرزشە، لە قوتابخانەی دواناوەدنی (میناتۆ) هاوڕێی نوێ دەناسێت و بەیەكەوە هەوڵی بەشداری دەكەن لە یانەی تیرهاوێشتن و بردەنەی نازناو لە پارێزگاكەیان دەكەن
+											</p>											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/thegreatepasaage.jpg" alt="">
+											<a href="Series/TheGreatPassage.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/TheGreatPassage.html">The Great Passage</a></h3>
+											<span class="card__category">
+												<p>پارچەیەك لە ژیان</p>
+										        <p>دراما</p>
+										        <p>خۆشەویستی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.6 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>14+</li>
+													<li>2016</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												  <p>چیرۆكی ئەنمیەكە سەبارەت بە میتسویا ماجیمی و ماساشی نیشیوكایە، میتسویا پیاوێكی جدییە و كەم قسە دەكات، بەڵام ماساشی كەسێكی كۆمەڵایەتییە، چیرۆكەكە سەبارەت بە هاوڕێیەتی و بەردەوامی و هەستەكانی ئەو دووانەیە كە هەوڵدەدەن بۆ درووستكردنی فەرهەنگێكی نوێ بەناوی ڕێڕەوی مەزن
+											         </p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/2.jpg" alt="">
+											<a href="Series/IdInvaded.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/IdInvaded.html">ID:Invaded</a></h3>
+											<span class="card__category">
+												<p>دراما</p>
+												<p>مەتەڵ</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.9 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>16+</li>
+													<li>2020</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												  <p>ئەم چیرۆكە باسی لێكۆڵەر ” ساكايدۆ” دەكات كە لێكۆڵینەوە لە كوژرانی كچێكی نەناسراو دەكات بە ناوی “كايرۆ تشان” ، بەڵام شیكاركردنی ئەم كەیسە وەكو كەیسی تر نییە ، و ئەویش توشی نهێنی زۆر دەبێتەوە كە جیهانەكەی سەروژێر دەبێت.
+											         </p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/tokyo m.jpg" alt="">
+											<a href="Series/TokyoMagnitude.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/TokyoMagnitude.html">Tokyo Magnitude 8.0</a></h3>
+											<span class="card__category">
+												<p>دراما</p>
+												<p>مێژووی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.0 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>14+</li>
+													<li>2009</li>
+											  </ul>
+										  </div>
+											<div class="card__description">
+												 <p>ئەم ئەنیمێە باسی بوومەلەرزەیەك دەكات كە لە تۆكیۆدا ڕوودەدات ، ئونوزاوا میرای كچێكی قوتابی قۆناغی ناوەندیە ، ئەم كچە ڕەشبینە لە هەموو شتێكدا
+													ڕقی لە ژیانەو و وادەبینێت كە هەموو شتێك پێویستە وێران بێت، چونكە ئەو هەمیشە تووڕەیە لە دایكو باوكی...</p>										
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+						
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="tab-5" role="tabpanel" aria-labelledby="5-tab">
+					<div class="row">
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/banana.jpg" alt="">
+											<a href="Series/BananaFish.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/BananaFish.html">Banana Fish</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+										        <p>تاوان</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.6 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>17+</li>
+													<li>2018</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												  <p>چیرۆك : سرووشت وای لە ”ئاش لينكس” كردووە كە كوڕێكی سەرنجڕاكێش بێت، دواتر بەخێوكردنەكەی دەیكات بە بكوژێكی خوێن ساردی بێبەزەیی، هەڵاتوویەك كە بە بەردەوامی دەكوژێت. “ئاش”، ئێستا لە ناوەڕاستی تەمەنی 17 ساڵیدایە، شانیشینەكەی جێهێشتووە دواتر ئەو شەیتانە دەبینێت كە بەخێویكردووە
+											         </p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+						
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="tab-6" role="tabpanel" aria-labelledby="6-tab">
+					<div class="row">
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/YonaOfTheDawn.jpg" alt="">
+											<a href="Series/YonaOfTheDawn.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/YonaOfTheDawn.html">Yona Of The Dawn</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+												<p>سەرکێشی</p>
+												<p>کۆمیدی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.1 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>+13</li>
+									                <li>2014</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>شازادەیەک بە ناوی یۆنا ژیانێکی خۆش و ئاسان دەژیێت لەناو مەملەکەتێک بەناوی کوکا، بەڵام هەموو شتێک لە شەوێکدا دەگۆڕدرێت، کە تیایدا باوکی دەکوژرێت و خیانەتیان لێ دەکرێت لەلایەن کوڕ مامەکەی کە یۆنای خۆشی دەویست، بەم شێوەیەش ژیانی یۆنا دەکەوێتە مەترسی و ناچارە ڕابکات لەگەڵ هاوڕێی منداڵی کە ناوی سۆن هاکە
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+						
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/heyacamp.jpg" alt="">
+											<a href="Series/heyacamp.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/heyacamp.html">Heya Camp</a></h3>
+											<span class="card__category">
+												<p>کۆمیدی</p>
+								                <p>سەرکێشی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.2 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2020</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>لە شارۆچكەی ياماناشي، لە قوتابخانەیەك بە ناوی مۆتۆسۆ، یانەیەكە هەیە بە ناوی یانەی هەوای پاك كە سێ ئەندام لە خۆ دەگرێت، نادیشیكۆ كە یەكێكە لە ئەندامەكان دەیەوێت كە كات لە ژووری یانەكەیان بەسەر ببەن، بەڵام دوو ئەندامەكەی دیكە ناچاری دەكەن كە بچن بۆ گەشتێك بە ناوی شارۆچكەی یاماناشی
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/moribito.jpg" alt="">
+											<a href="Series/Moribito.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/Moribito.html">Moribito: Guardian of the Spirit</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+								                <p>سەرکێشی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.5 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2007</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>چیرۆكی ئەنیمێەكە باسی ئافرەتێكی جەنگاوەر دەكات بە ناوی (بالسا) كە بەڵێنی پاراساتنی كەسانی دیكەی بەخۆی داوە، و لە گەشتێكیدا بالسا دەگاتە وڵاتی یۆگۆی نوێ، و خاتوونی ئیمبڕاتۆڕی ئەو وڵاتە داوای پاراستنی شازادەی دووەمی كۆشك دەكات لە بالسا، كە ئیمبڕاتۆڕ ویستی كوشتنی هەبوو
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+						
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/91-xhsX3g8L._SL1500_.jpg" alt="">
+											<a href="Series/dororo.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/dororo.html">Dororo</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+												<p>سەرکێشی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.1 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>17+</li>
+													<li>2019</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												 <p>ئەم ئەنیمێە دەگەڕێتەوە بۆ ساڵانی ١٤٧٠ ، باسی ئەو كوڕە دەكات كە ٤٨ ئەندامی جەستەی لە دەستداوە ئەویش بەهۆی باوكیەوە كە ڕێكەوتنی لەگەڵ شەیتانەكان دەكات بۆ كۆنتڕۆڵكردنی گەلان ، كاتێك ئەم منداڵە لە دایكدەبێت فرێ دەدرێتە ناو ڕوبارەوە ، و ژیانی بەسەردەبات بە ئەندامی دەستكرد و بۆ ئەوەی ئەندامە ڕاستیەكانی بگەڕێنێتەوە پێویستە هەموو شەیتانكان بكوژێت كە جەستەی ئەویان بردبووو....</p>
+												 
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+						
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="tab-7" role="tabpanel" aria-labelledby="7-tab">
+					<div class="row">
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/thegreatepasaage.jpg" alt="">
+											<a href="Series/TheGreatPassage.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/TheGreatPassage.html">The Great Passage</a></h3>
+											<span class="card__category">
+												<p>پارچەیەك لە ژیان</p>
+										        <p>دراما</p>
+										        <p>خۆشەویستی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.6 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>14+</li>
+													<li>2016</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												  <p>چیرۆكی ئەنمیەكە سەبارەت بە میتسویا ماجیمی و ماساشی نیشیوكایە، میتسویا پیاوێكی جدییە و كەم قسە دەكات، بەڵام ماساشی كەسێكی كۆمەڵایەتییە، چیرۆكەكە سەبارەت بە هاوڕێیەتی و بەردەوامی و هەستەكانی ئەو دووانەیە كە هەوڵدەدەن بۆ درووستكردنی فەرهەنگێكی نوێ بەناوی ڕێڕەوی مەزن
+											         </p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="tab-8" role="tabpanel" aria-labelledby="8-tab">
+					<div class="row">
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/udonnokuni.jpg" alt="">
+											<a href="Series/UdonNoKuni.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/UdonNoKuni.html">Poco's Udon World</a></h3>
+											<span class="card__category">
+												<p>پارچەیەك لە ژیان</p>
+								                <p>خەیاڵی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.8 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>+13</li>
+									                <li>2016</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>ڕووداوەکان لە پارێزگای کاگاوا ڕوودەدات کە ناسراوە بە پارێزگای ئۆدۆن(مەعکەرۆنە)، باسی کوڕێك دەکات بەناوی سۆتا کە تەمەنی سی ساڵە منداڵێکی بچووک دەناسێت بەناوی پۆکۆ و بەخێوی دەکات، ڕۆژێک لە ڕۆژان ئەم منداڵە دوو گوێ و کلکێکی بۆ درووست دەبێت، ئایا کوڕە گەنجەکە لەم کاتەدا چی دەکات؟
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/mushishi.jpg" alt="">
+											<a class="card__play" href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												<i class="icon ion-ios-play"></i>
+											</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/mushishi.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/mushishi_s2.html">وەرزی دووەم</a></li>
+												</ul>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mushishi &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/mushishi.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/mushishi_s2.html">وەرزی دووەم</a></li>
+												</ul>
+											</h3>
+											<span class="card__category">
+												<p>پارچەیەك لە ژیان</p>
+								                <p>مەتەڵ</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.7 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2005</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>باسی گەشتكەرێك دەكات بە ناوی (جینكۆ) كە لە گوندێكەوە گەشت دەكات بۆ گوندێكی دیكە بە ئامانجی یارمەتیدانی خەڵكی لە بوونەوەرێك بە ناوی موشی، موشی نە ئاژەڵ و نە ڕووەكە و نە مرۆڤ و شێوەی جیاواز هەڵدەگرێت، هەریەك لەوان چیرۆكێكی تایبەتی هەیە كە كاریگەری لە ژیانی مرۆڤ دەكات، لە كاتی تەماشاكردنی ئەم ئەنینیە دەبینن كە جینكۆ لە كاتی هەر گەشتێكیدا چۆن مامەڵە لەگەڵ جیهانی موشی دەكات و كێشەكان چارەسەر دەكات
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/hyouka.jpg" alt="">
+											<a href="Series/hyouka.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/hyouka.html">Hyouka</a></h3>
+											<span class="card__category">
+												<p>مەتەڵ</p>
+								                <p>قوتابخانە</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.1 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2012</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>باسی كوڕێك دەكات بە ناوی (هۆتارو ئۆریكی) كوڕێكی تەمبەڵ كە وزەی خۆی بە فیڕۆ نادات و ئەو زۆر كەمتەرخەمە بەڵام ئەو بە شێوەیەكی سەرسووڕهێنەر مەتەڵەكان شیكار دەكات، ڕۆژێك لەسەر داواكاری خوشكەكەی دەچێتە یانەی ئەدەبی كلاسیكی و لەوێ كچێك بە ناوی (چیتاندا ئیرۆ) دەناسێت كە داوای شیكاركردنی كەیسێكی لێ دەكات كە 45 ساڵ لەمەو پێش ڕوویدابوو
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/yurucamp.jpg" alt="">
+											<a class="card__play" href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												<i class="icon ion-ios-play"></i>
+											</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/YuruCamp.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/YuruCamp_s2.html">وەرزی دووەم</a></li>
+												</ul>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Yuru Camp &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/YuruCamp.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/YuruCamp_s2.html">وەرزی دووەم</a></li>
+												</ul>
+											</h3>
+											<span class="card__category">
+												<p>کۆمیدی</p>
+								                <p>پارچەیەك لە ژیان</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.3 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2018</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>چیرۆكەكە باسی دوو كچ دەكات , یەكەمیان رين كە حەزی بە گەشتی خێوەتگەیی هەیە لەدەوری دەریاچەكان كە دیمەنێكی سەرنجڕاكێش دەبەخشێتە شاخی فوجی, و كچەكەی دیكە نادیشیكۆ كە حەزی بە لێخورینی ماتۆڕسكیلە لە دەوری ئەو ناوچانەی شاخی فوجی, دوای یەكتربینی رين و نادیشیكۆ بڕیاڕ دەدەن بە كردنی گەشتی خێوەتگەیی و خواردنی ڕامێن و چێژ بینین لە دیمەنەكان بەیەكەوە
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+						
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/thegreatepasaage.jpg" alt="">
+											<a href="Series/TheGreatPassage.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/TheGreatPassage.html">The Great Passage</a></h3>
+											<span class="card__category">
+												<p>پارچەیەك لە ژیان</p>
+										        <p>دراما</p>
+										        <p>خۆشەویستی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.6 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>14+</li>
+													<li>2016</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												  <p>چیرۆكی ئەنمیەكە سەبارەت بە میتسویا ماجیمی و ماساشی نیشیوكایە، میتسویا پیاوێكی جدییە و كەم قسە دەكات، بەڵام ماساشی كەسێكی كۆمەڵایەتییە، چیرۆكەكە سەبارەت بە هاوڕێیەتی و بەردەوامی و هەستەكانی ئەو دووانەیە كە هەوڵدەدەن بۆ درووستكردنی فەرهەنگێكی نوێ بەناوی ڕێڕەوی مەزن
+											         </p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="tab-9" role="tabpanel" aria-labelledby="9-tab">
+					<div class="row">
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/kemonojihen.jpg" alt="">
+											<a href="Series/KemonoJihen.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/KemonoJihen.html">Kemono Jihen</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+												<p>مەتەڵ</p>
+												<p>سەروو سرووشت</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.7 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>+17</li>
+									                <li>2021</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>چیرۆکی ئەم ئەنیمیە دەستپێدەکات کاتێک زنجیرەیەک لە ئاژەڵ دەمرن و لاشەکانیان بۆگەن دەبێت لە گوندێکدا، بۆیە لێکۆڵەرێک بە ناوی ئینوگامی لە شاری تۆکیۆوە بانگ دەکرێت بۆ شیکارکردنی کەیسەکە، کە لەوێدا چاوی بە کوڕێک دەکەوێت بە ناوی دۆرۆتابۆ، و ئەم کوڕە یارمەتی لێکۆڵەرەکە دەدات بەڵام دەردەکەوێت کە هێزی سەروو سڕووشت لە پشت ئەم ڕووداوانەن و دۆرۆتابۆ تەنها نازناوێکە و ناوی ڕاستەقینەی کوڕەکە نییە
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/mushishi.jpg" alt="">
+											<a class="card__play" href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												<i class="icon ion-ios-play"></i>
+											</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/mushishi.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/mushishi_s2.html">وەرزی دووەم</a></li>
+												</ul>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mushishi &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/mushishi.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/mushishi_s2.html">وەرزی دووەم</a></li>
+												</ul>
+											</h3>
+											<span class="card__category">
+												<p>پارچەیەك لە ژیان</p>
+								                <p>مەتەڵ</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.7 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2005</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>باسی گەشتكەرێك دەكات بە ناوی (جینكۆ) كە لە گوندێكەوە گەشت دەكات بۆ گوندێكی دیكە بە ئامانجی یارمەتیدانی خەڵكی لە بوونەوەرێك بە ناوی موشی، موشی نە ئاژەڵ و نە ڕووەكە و نە مرۆڤ و شێوەی جیاواز هەڵدەگرێت، هەریەك لەوان چیرۆكێكی تایبەتی هەیە كە كاریگەری لە ژیانی مرۆڤ دەكات، لە كاتی تەماشاكردنی ئەم ئەنینیە دەبینن كە جینكۆ لە كاتی هەر گەشتێكیدا چۆن مامەڵە لەگەڵ جیهانی موشی دەكات و كێشەكان چارەسەر دەكات
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+						
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/hyouka.jpg" alt="">
+											<a href="Series/hyouka.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/hyouka.html">Hyouka</a></h3>
+											<span class="card__category">
+												<p>مەتەڵ</p>
+								                <p>قوتابخانە</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.1 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2012</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>باسی كوڕێك دەكات بە ناوی (هۆتارو ئۆریكی) كوڕێكی تەمبەڵ كە وزەی خۆی بە فیڕۆ نادات و ئەو زۆر كەمتەرخەمە بەڵام ئەو بە شێوەیەكی سەرسووڕهێنەر مەتەڵەكان شیكار دەكات، ڕۆژێك لەسەر داواكاری خوشكەكەی دەچێتە یانەی ئەدەبی كلاسیكی و لەوێ كچێك بە ناوی (چیتاندا ئیرۆ) دەناسێت كە داوای شیكاركردنی كەیسێكی لێ دەكات كە 45 ساڵ لەمەو پێش ڕوویدابوو
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/2.jpg" alt="">
+											<a href="Series/IdInvaded.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/IdInvaded.html">ID:Invaded</a></h3>
+											<span class="card__category">
+												<p>دراما</p>
+												<p>مەتەڵ</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.9 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>16+</li>
+													<li>2020</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												  <p>ئەم چیرۆكە باسی لێكۆڵەر ” ساكايدۆ” دەكات كە لێكۆڵینەوە لە كوژرانی كچێكی نەناسراو دەكات بە ناوی “كايرۆ تشان” ، بەڵام شیكاركردنی ئەم كەیسە وەكو كەیسی تر نییە ، و ئەویش توشی نهێنی زۆر دەبێتەوە كە جیهانەكەی سەروژێر دەبێت.
+											         </p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/B the begining.jpg" alt="">
+											<a href="Series/Bthebeginning.html" class="card__play">
+												<i class="icon ion-ios-play"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="Series/Bthebeginning.html">B The Beginning</a></h3>
+											<span class="card__category">
+												<p>ئاکشن</p>
+												<p>مەتەڵ</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>7.4 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+													<li>17+</li>
+													<li>2018</li>
+											  </ul>
+										  </div>
+											<div class="card__description">
+												 <p>لە جیهانێك كە تەكنەلۆجیای نوێ تیایدا بەردەستە، كۆمەڵێك تاوان و كوشتن لە شاری كريمۆنا ڕوودەدات. كۆكو كە پاڵەوانی ئەم ئەنیمێە و كيس كە بلیمەترین لێكۆڵەری ناو ئۆفیسی شایە و ڕیكخراوێكی تیرۆرستی نادیار كە پێكدێت لە كۆمەلێك كەسایەتی تاوانباری تاوانەكانیان دەكەن لەم شارە .</p>										
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+						
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="tab-10" role="tabpanel" aria-labelledby="10-tab">
+					<div class="row">
+
+						
+						<!-- card -->
+						<div class="col-6 col-sm-12 col-lg-6">
+							<div class="card card--list">
+								<div class="row">
+									<div class="col-12 col-sm-4">
+										<div class="card__cover">
+											<img src="img/covers/haikyuu.jpg" alt="">
+											<a class="card__play" href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												<i class="icon ion-ios-play"></i>
+											</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/haikyuu.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/haikyuu_s2.html">وەرزی دووەم</a></li>
+													<li><a href="Series/haikyuu_s3.html">وەرزی سێیەم</a></li>
+													<li><a href="Series/haikyuu_s4.html">وەرزی چوارەم</a></li>
+												</ul>
+
+											
+										</div>
+									</div>
+
+									<div class="col-12 col-sm-8">
+										<div class="card__content">
+											<h3 class="card__title"><a href="#" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Haikyuu &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;</a>
+		
+												<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuHome">
+													<li><a href="Series/haikyuu.html">وەرزی یەکەم</a></li>
+													<li><a href="Series/haikyuu_s2.html">وەرزی دووەم</a></li>
+													<li><a href="Series/haikyuu_s3.html">وەرزی سێیەم</a></li>
+													<li><a href="Series/haikyuu_s4.html">وەرزی چوارەم</a></li>
+												</ul>
+											</h3>
+											<span class="card__category">
+												<p>وەرزشی</p>
+								                <p>کۆمیدی</p>
+											</span>
+
+											<div class="card__wrap">
+												<span class="card__rate"><i class="icon ion-ios-star"></i>8.6 IMDB</span>
+
+												<ul class="card__list">
+												    <li>Full HD</li>
+									                <li>13+</li>
+									                <li>2014</li>
+												</ul>
+											</div>
+
+											<div class="card__description">
+												<p>چیرۆكی ئەم ئەنیمێە سەبارەت بە "هيناتا شۆیۆ"یە كە دەیەوێت ببێتە یاریزانێكی لێهاتووی تۆپی بالە لە دوای ئەوەی یاریكردنی كوڕێك دەبینێت كە بە زەبەلاحی بچووك ناسراوە و بەهۆی ئەوە حەز لەم یاریە دەكات هەوڵ دەدات كە بچێتە یانەیەكی تۆپی بالە و چیرۆكی ئەم كوڕە لەگەڵ تیمێكی لەبیركراو دەستپێدەكات كە نازناوی "ئەو قەڵەڕەشانەی كە ناتوانن بفڕن"یان لێ نراوە
+												</p>											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
+
+						<!-- card -->
+					<div class="col-6 col-sm-12 col-lg-6">
+						<div class="card card--list">
+							<div class="row">
+								<div class="col-12 col-sm-4">
+									<div class="card__cover">
+										<img src="img/covers/tsurune.jpg" alt="">
+										<a href="Series/tsurune.html" class="card__play">
+											<i class="icon ion-ios-play"></i>
+										</a>
+									</div>
+								</div>
+
+								<div class="col-12 col-sm-8">
+									<div class="card__content">
+										<h3 class="card__title"><a href="Series/tsurune.html">Tsurune: Kazemai Koukou Kyuudoubu</a></h3>
+										<span class="card__category">
+											<p>وەرزشی</p>
+											<p>دراما</p>
+										</span>
+
+										<div class="card__wrap">
+											<span class="card__rate"><i class="icon ion-ios-star"></i>7.5 IMDB</span>
+
+											<ul class="card__list">
+												<li>Full HD</li>
+												<li>13+</li>
+												<li>2018</li>
+											</ul>
+										</div>
+
+										<div class="card__description">
+											<p>ئەم چیرۆكە باسی (میناتۆ نارومیا) دەكات كە یاریزانی تیرهاوێشتنە لە قۆناغی ناوەندی، بەڵام دوای ڕووداوێك ئەم كوڕە دەوەستێت لەسەر ئەو وەرزشە، لە قوتابخانەی دواناوەدنی (میناتۆ) هاوڕێی نوێ دەناسێت و بەیەكەوە هەوڵی بەشداری دەكەن لە یانەی تیرهاوێشتن و بردەنەی نازناو لە پارێزگاكەیان دەكەن
+											</p>											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end card -->
+
+					
+
+					</div>
+				</div>
+			</div>
+			<!-- end content tabs -->
+		</div>
+	</section>
+
+	
+	
+	
+	
+
+	
+
+	<!-- footer -->
+	<footer class="footer">
+		<div class="container">
+			<a href='https://t.me/K4rtoni_kurdi' id='telegram' style='display: inline;' target='_blank' title='Telegram'><i class='fab fa-telegram'></i></a>
+			<div class="row"> <!--
+				
+				<div class="col-12 col-md-3">
+					<h6 class="footer__title">پەیجەکەمان</h6>
+					<ul class="footer__app">
+						<li><a href="https://www.facebook.com/AnimeInKurdish"><img src="img/facebook.png" alt=""></a></li>
+						
+					</ul>
+				</div>
+				
+
+				
+				<div class="col-6 col-sm-4 col-md-3">
+					<h6 class="footer__title">ئەپەکانمان داببەزێنە</h6>
+					<ul class="footer__social">
+						<li class="IOS"><a href="apps.html"><i class="icon ion-logo-apple"></i></a></li>
+						<li class="Android"><a href="apps.html"><i class="icon ion-logo-android"></i></a></li>
+						<li class="Windows"><a href="apps.html"><i class="icon ion-logo-windows"></i></a></li>
+					</ul>
+				</div>
+				
+
+				
+				<div class="col-6 col-sm-4 col-md-3">
+					<h6 class="footer__title">سەرچاوەکان</h6>
+					<ul class="footer__list">
+						<li><a href="about.html">سەبارەت بە ئێمە</a></li>
+						<li><a href="support.html">پشتگیریمان بکە</a></li>
+					</ul>
+				</div>
+				
+
+				
+				<div class="col-12 col-sm-4 col-md-3">
+					<h6 class="footer__title">پەیوەندیمان پێوە بکە</h6>
+					<ul class="footer__list">
+						<li><p>ehsanayub80@gmail.com</p></li>
+					</ul>
+					
+					<ul class="footer__social">
+						<li class="facebook"><a href="https://www.facebook.com/AnimeInKurdish"><i class="icon ion-logo-facebook"></i></a></li>
+						<li class="instagram"><a href="https://www.instagram.com/anime_inkurdish/"><i class="icon ion-logo-instagram"></i></a></li>
+						<li class="twitter"><a href="https://www.facebook.com/AnimeInKurdish"><img src="img/Youtube-512.png" width="20" height="22"></a></li>
+						</ul>
+				</div>
+				
+
+				
+				--> <div class="col-12">
+					<div class="footer__copyright">
+						<small><p>هەموو مافی پارێزراوە بۆ کارتۆنی کوردی 2021</p></small>
+						<small><p><a href="https://ehsandesigner.tech/" target="blank">درووستکراوە لەلایەن : ئیحسان دیزاینەر</a></p></small>
+					</div>
+</div>				
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
+
+	<!-- JS -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.mousewheel.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.min.js"></script>
+	<script src="js/wNumb.js"></script>
+	<script src="js/nouislider.min.js"></script>
+	<script src="js/plyr.min.js"></script>
+	<script src="js/jquery.morelines.min.js"></script>
+	<script src="js/photoswipe.min.js"></script>
+	<script src="js/photoswipe-ui-default.min.js"></script>
+	<script src="js/main.js"></script>
+	<!-- Default Statcounter code for Anime In Kurdish
+https://animeinkurdish.netlify.com/ -->
+<script type="text/javascript">
+	var sc_project=12252264; 
+	var sc_invisible=1; 
+	var sc_security="96ef64f1"; 
+	var sc_https=1; 
+	</script>
+	<script type="text/javascript"
+	src="https://www.statcounter.com/counter/counter.js" async></script>
+	<noscript><div class="statcounter"><a title="Web Analytics"
+	href="https://statcounter.com/" target="_blank"><img class="statcounter"
+	src="https://c.statcounter.com/12252264/0/96ef64f1/1/" alt="Web
+	Analytics"></a></div></noscript>
+	<!-- End of Statcounter Code -->
+</body>
+
+</html>

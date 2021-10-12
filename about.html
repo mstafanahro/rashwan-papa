@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+
+<head>
+		
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="utf-8">
+	
+	<style>
+        @font-face {
+    font-family: "Rabar_013";
+    src: url("fonts/Rabar_013.eot"); /* IE9 Compat Modes */
+    src: url("fonts/Rabar_013.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+        url("fonts/Rabar_013.ttf") format("truetype"), /* Safari, Android, iOS */
+        url("fonts/Rabar_013.woff") format("woff"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+    }
+    </style>
+
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CUbuntu:300,400,500,700" rel="stylesheet">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+	<link rel="stylesheet" href="css/nouislider.min.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/plyr.css">
+	<link rel="stylesheet" href="css/photoswipe.css">
+	<link rel="stylesheet" href="css/default-skin.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- Favicons -->
+	<link rel="icon" type="image/png" href="icon/favicon-32x32.png" sizes="32x32">
+	<link rel="apple-touch-icon" href="icon/favicon-32x32.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="icon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="icon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="icon/apple-touch-icon-144x144.png">
+
+	<meta name="description" content="">
+	<meta name="keywords" content="About">
+	<meta name="author" content="">
+	<title>About</title>
+
+</head>
+<body class="body">
+	
+	<!-- header -->
+	<header class="header">
+		<div class="header__wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="header__content">
+							<!-- header logo -->
+						<a href="index.html" class="header__logo">
+							<img src="img/2.png" alt="" >
+						</a>
+						<!-- end header logo -->
+
+						<!-- header nav -->
+						<ul class="header__nav">
+							<!-- dropdown -->
+							<li class="header__nav-item">
+								<a href="index.html" class="header__nav-link">سەرەتا</a>
+							</li>
+							<!-- end dropdown -->
+							
+
+							<!-- dropdown -->
+							<li class="header__nav-item">
+								<a href="movies.html" class="header__nav-link">فیلمەکان</a>
+							</li>
+							
+							<!-- <li class="header__nav-item">
+								<a href="series.html" class="header__nav-link">زنجیرەکان</a>
+							</li> -->
+
+							
+							<li class="header__nav-item">
+								<a href="staff.html" class="header__nav-link">ستاف</a>
+							</li>
+							
+							<li class="header__nav-item">
+								<a href="about.html" class="header__nav-link">سەبارەت</a>
+							</li>
+
+							<li id="mobile" class="header__nav-item">
+								<a target="_blank" href="https://www.facebook.com/Kartoni-Kurdi-105081544697058/" class="header__nav-link">فەیسبووك</a>
+							</li>
+
+							<li id="tablet" class="header__nav-item">
+								<a target="_blank" href="https://www.facebook.com/Kartoni-Kurdi-105081544697058/" class="header__nav-link">فەیسبووك</a>
+							</li>
+
+							<!-- dropdown -->
+							<div id="computer" class="dropdown_padd">
+
+								<li class="dropdown header__nav-item">
+									<a class="dropdown-toggle header__nav-link header__nav-link--more" href="#" role="button" id="dropdownMenuMore" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon ion-ios-more"></i></a>
+	
+									<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuMore">
+										<li><a target="_blank" href="https://www.facebook.com/Kartoni-Kurdi-105081544697058/">فەیسبووك</a></li>
+										
+									</ul>
+								</li>
+
+							</div>
+							<!-- end dropdown -->
+
+							
+
+							
+						</ul>
+						<!-- end header nav -->
+
+						<!-- header auth -->
+							<div class="header__auth">
+								<button class="header__search-btn" type="button" onclick="topfunction()">
+									<i class="icon ion-ios-search"></i>
+								</button>
+
+							
+						</div>
+						<!-- end header auth -->
+
+							<!-- header menu btn -->
+							<button class="header__btn" type="button">
+								<span></span>
+								<span></span>
+								<span></span>
+							</button>
+							<!-- end header menu btn -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- header search -->
+	<form action="" class="header__search">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="header__search-content">
+						
+
+						<input type="text" id="myInput" autocomplete="off" onkeyup="searchFunction()" placeholder="ناوی ئەو کارتۆنە بنووسە کە بەدوای دەگەڕێیت">
+
+						
+						<button id="click" onclick="sfunction()" type="button">گەڕان</button>
+						
+						
+					</div>
+
+					<div id="sfunction" class="searchd">
+
+						<ul class="footer__listb" id="myUL">
+							<li><img src="img/search/barewbary_mndalakan.jpg" alt="" width="70px" height="100px"><a href="movies/barewbary_mndalakan.html">بەڕێوبەری منداڵه‌كان</a></li>
+							<li><img src="img/search/drndayak_le_paris.jpg" alt="" width="70px" height="100px"><a href="movies/drndayak_le_paris.html">دڕندەیەك لە پاریس </a></li>
+							<li><img src="img/search/hotel_drndakan.jpg" alt="" width="70px" height="100px"><a href="movies/hotel_drndakan.html">هۆتێلی دڕندەکان </a></li>
+							<li><img src="img/search/hotel_drndakan2.jpg" alt="" width="70px" height="100px"><a href="movies/hotel_drndakan2.html">هۆتێلی دڕندەکان بەشی دوو </a></li>
+							<li><img src="img/search/hotel_drndakan3.jpg" alt="" width="70px" height="100px"><a href="movies/hotel_drndakan3.html">هۆتێلی دڕندەکان بەشی سێ </a></li>
+							<li><img src="img/search/kobwnewey_azhalan.jpg" alt="" width="70px" height="100px"><a href="movies/kobwnewey_azhalan.html">کۆبوونەوەی ئاژەڵان </a></li>
+							<li><img src="img/search/kary_baxtawar.jpg" alt="" width="70px" height="100px"><a href="movies/kary_baxtawar.html"> کەری بەختەوەر </a></li>
+							<li><img src="img/search/komba.jpg" alt="" width="70px" height="100px"><a href="movies/komba.html">کۆمبا </a></li>
+							<li><img src="img/search/pashay_gwedrezh.jpg" alt="" width="70px" height="100px"><a href="movies/pashay_gwedrezh.html">پاشای گوێدرێژ </a></li>
+							<li><img src="img/search/palawan.jpg" alt="" width="70px" height="100px"><a href="movies/palawan.html"> پاڵەوان </a></li>
+							<li><img src="img/search/qazy_razil.jpg" alt="" width="70px" height="100px"><a href="movies/qazy_razil.html">قازی ڕەزیل </a></li>
+							<li><img src="img/search/se_smora.jpg" alt="" width="70px" height="100px"><a href="movies/se_smora.html">سێ سمۆرەی هونەرمەند </a></li>
+							<li><img src="img/search/se_smora2.jpg" alt="" width="70px" height="100px"><a href="movies/se_smora2.html">سێ سمۆرەی هونەرمەند بەشی دوو </a></li>
+							<li><img src="img/search/se_smora3.jpg" alt="" width="70px" height="100px"><a href="movies/se_smora3.html">سێ سمۆرەی هونەرمەند بەشی سێ </a></li>
+							<li><img src="img/search/tarazan.jpg" alt="" width="70px" height="100px"><a href="movies/tarazan.html">تەڕەزان </a></li>
+							<li><img src="img/search/tarazan2.jpg" alt="" width="70px" height="100px"><a href="movies/tarazan2.html">تەڕەزان بەشی دوو </a></li>
+							
+							<br>
+						</ul>
+
+					</div>
+
+				</div>
+
+				
+			</div>
+		</div>
+	</form>
+	<!-- end header search -->
+	</header>
+	<!-- end header -->
+
+	<!-- page title -->
+	<section class="section section--first section--bg" data-bg="img/section/section.jpg">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="section__wrap">
+						<!-- section title -->
+						<h2 class="section__title">سەبارەت بە ئێمە</h2>
+						<!-- end section title -->
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end page title -->
+
+	<!-- about -->
+	<section class="section">
+		<div class="container">
+			<!-- section title -->
+			<div class="col-12">
+				<h2 class="section__title"><b>کارتۆنی کوردی</b> – باشترین شوێن بۆ فیلم و زنجیرەی کارتۆنی بە زمانی شیرینی کوردی</h2>
+			</div>
+			<!-- end section title -->
+		</div>
+	</section>
+	<!-- end about -->
+
+	<!-- how it works -->
+	<section class="section section--dark">
+		<div class="container">
+			<div class="row">
+						
+				<!-- feature -->
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="feature">
+						<i class="icon ion-ios-tv feature__icon"></i>
+						<h3 class="feature__title">بەرزترین کوالێتی</h3>
+						<p class="feature__text">هەموو فیلم و زنجیرەکان بە بەرزترین کوالێتی بڵاودەکرێنەوە HD 1080p.</p>
+					</div>
+				</div>
+				<!-- end feature -->
+
+				<!-- feature -->
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="feature">
+						<i class="icon ion-ios-film feature__icon"></i>
+						<h3 class="feature__title">چەشن</h3>
+						<p class="feature__text">گرنگی بە هەموو چەشن و جۆرەکانی کارتۆن دەدەین وەکو ئاکشن و دراما و خەیاڵی و هتد...</p>
+					</div>
+				</div>
+				<!-- end feature -->
+
+				<!-- feature -->
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="feature">
+						<i class="icon ion-ios-trophy feature__icon"></i>
+						<h3 class="feature__title">باشترینەکان</h3>
+						<p class="feature__text">ئێمە باشترینی ناو باشترینەکان هەڵدەبژێرین بە پێی ڕەیتینگی ماڵپەڕی جیهانی وەکو IMDB.</p>
+					</div>
+				</div>
+				<!-- end feature -->
+
+				<!-- feature -->
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="feature">
+						<i class="icon ion-ios-notifications feature__icon"></i>
+						<h3 class="feature__title">نۆتیفیکەیشن</h3>
+						<p class="feature__text">نۆتیفیکەیشنی تیلیگرام یان هەریەکێك لە سۆشیاڵ میدیا بخەرە کار بۆ ئەوەی ئاگاداری هەموو کارتۆنە تازەکانمان ببیت</p>
+					</div>
+				</div>
+				<!-- end feature -->
+
+				<!-- feature -->
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="feature">
+						<i class="icon ion-ios-rocket feature__icon"></i>
+						<h3 class="feature__title">سادە و خێرا</h3>
+						<p class="feature__text">ئێمە ڕووکاری ماڵپەرەکەمان بە شێوەیەکی سادە و خێرا درووست کردووە بۆ ئەوەی هەموو کەسێک بتوانێت بەکاری بهێنێت</p>
+					</div>
+				</div>
+				<!-- end feature -->
+
+				<!-- feature -->
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="feature">
+						<i class="icon ion-ios-globe feature__icon"></i>
+						<h3 class="feature__title">دۆبلاژ </h3>
+						<p class="feature__text">هەموو کارتۆنەکان بە باشترین شێوە دۆبلاژ کراونەتە سەر زمانی شیرینی کوردی</p>
+					</div>
+				</div>
+				<!-- end feature -->
+			</div>
+		</div>
+	
+   <!-- how it works -->
+	<section class="section">
+		
+	</section>
+	<!-- end partners -->
+
+	</section>
+	<!-- end how it works -->
+
+
+
+	<!-- footer -->
+	<footer class="footer">
+		<div class="container">
+			<a href='https://t.me/K4rtoni_kurdi' id='telegram' style='display: inline;' target='_blank' title='Telegram'><i class='fab fa-telegram'></i></a>
+			<div class="row"> <!--
+				
+				<div class="col-12 col-md-3">
+					<h6 class="footer__title">پەیجەکەمان</h6>
+					<ul class="footer__app">
+						<li><a href="https://www.facebook.com/AnimeInKurdish"><img src="img/facebook.png" alt=""></a></li>
+						
+					</ul>
+				</div>
+				
+
+				
+				<div class="col-6 col-sm-4 col-md-3">
+					<h6 class="footer__title">ئەپەکانمان داببەزێنە</h6>
+					<ul class="footer__social">
+						<li class="IOS"><a href="apps.html"><i class="icon ion-logo-apple"></i></a></li>
+						<li class="Android"><a href="apps.html"><i class="icon ion-logo-android"></i></a></li>
+						<li class="Windows"><a href="apps.html"><i class="icon ion-logo-windows"></i></a></li>
+					</ul>
+				</div>
+				
+
+				
+				<div class="col-6 col-sm-4 col-md-3">
+					<h6 class="footer__title">سەرچاوەکان</h6>
+					<ul class="footer__list">
+						<li><a href="about.html">سەبارەت بە ئێمە</a></li>
+						<li><a href="support.html">پشتگیریمان بکە</a></li>
+					</ul>
+				</div>
+				
+
+				
+				<div class="col-12 col-sm-4 col-md-3">
+					<h6 class="footer__title">پەیوەندیمان پێوە بکە</h6>
+					<ul class="footer__list">
+						<li><p>ehsanayub80@gmail.com</p></li>
+					</ul>
+					
+					<ul class="footer__social">
+						<li class="facebook"><a href="https://www.facebook.com/AnimeInKurdish"><i class="icon ion-logo-facebook"></i></a></li>
+						<li class="instagram"><a href="https://www.instagram.com/anime_inkurdish/"><i class="icon ion-logo-instagram"></i></a></li>
+						<li class="twitter"><a href="https://www.facebook.com/AnimeInKurdish"><img src="img/Youtube-512.png" width="20" height="22"></a></li>
+						</ul>
+				</div>
+				
+
+				
+				--> <div class="col-12">
+					<div class="footer__copyright">
+						<small><p>هەموو مافی پارێزراوە بۆ کارتۆنی کوردی 2021</p></small>
+						<small><p><a href="https://ehsandesigner.tech/" target="blank">درووستکراوە لەلایەن : ئیحسان دیزاینەر</a></p></small>
+					</div>
+</div>				
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
+
+	<!-- JS -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.mousewheel.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.min.js"></script>
+	<script src="js/wNumb.js"></script>
+	<script src="js/nouislider.min.js"></script>
+	<script src="js/plyr.min.js"></script>
+	<script src="js/jquery.morelines.min.js"></script>
+	<script src="js/photoswipe.min.js"></script>
+	<script src="js/photoswipe-ui-default.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
